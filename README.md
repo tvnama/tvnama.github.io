@@ -61,3 +61,23 @@ const linkedinUrl='';
 
 ## لینک مستقیم شبکه‌ها
 با کلیک روی شبکه، نشانی صفحه بدون بارگذاری مجدد به شکل `https://tvnama.github.io/?channel=CHANNEL_ID` تغییر می‌کند. لینک را می‌توان کپی و ارسال کرد. رفت‌وبرگشت مرورگر نیز انتخاب شبکه را به‌روزرسانی می‌کند. متادیتای Open Graph برای لینک‌های دارای پارامتر، در هاست استاتیک GitHub Pages همچنان متادیتای کلی سایت است.
+
+## Independent streams (October 2026 update)
+
+The app now supports first-party HTML5/HLS playback (hls.js) when a channel has `streamUrl`. Configure independent, authorized, publicly playable stream URLs in `src/independent-sources.js` keyed by ParsaTV channel identifier (for example `Namayesh`). If no direct stream is configured, the existing ParsaTV iframe is retained. The original site's `Invalid URL / Please visit the page from its main source` notice means embedding is restricted; embedding that page in this project does not fix it. Do not attempt to bypass domain checks or proxy third-party protected streams without permission.
+
+The supplied Namayesh sample stream is **commented out** because it has not been live-tested, and a publicly visible playlist URL does not establish embedding/redistribution permission or CORS compatibility. Enable only after verification. `public/channels.json` synchronization does not verify playback. The GitHub Pages build remains static and cannot run a server-side stream proxy.
+
+## بررسی خودکار منابع مستقیم شبکه‌ها
+
+هنگام هر انتشار GitHub Actions، بعد از همگام‌سازی فهرست، `scripts/sync_streams.py`
+صفحات عمومی هر شبکه را بررسی می‌کند و فقط آدرس‌های HLS که پاسخ قابل‌خواندن
+و هدر CORS مناسب برای `https://tvnama.github.io` دارند در
+`public/direct-streams.json` قرار می‌دهد. این بررسی **تضمین پخش واقعی نیست**؛
+درخواست قطعه‌های ویدیویی، مجوز بازپخش و برخی محدودیت‌های مبتنی بر دامنه
+ممکن است همچنان مانع باشند. استریم‌های محافظت‌شده دور زده نمی‌شوند.
+
+برای اجرای دستی: `python -m pip install requests` سپس
+`python scripts/sync_streams.py` (با دسترسی شبکه). `SITE_ORIGIN` باید در صورت
+تغییر دامنه تنظیم شود. اگر صفحه/استریم اجازه دسترسی ندهد، آن شبکه در روش
+قبلی iframe باقی می‌ماند. اجرای آفلاین فایل JSON خالی تولید می‌کند.
