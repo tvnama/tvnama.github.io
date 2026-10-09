@@ -1,0 +1,152 @@
+[
+  {
+    "channel": "Shabake 1",
+    "officialPage": "https://telewebion.net/live/tv1",
+    "streamUrl": null,
+    "status": "official_page_found_stream_not_verified"
+  },
+  {
+    "channel": "Shabake 2",
+    "officialPage": "https://telewebion.net/live/tv2",
+    "streamUrl": null,
+    "status": "official_page_found_stream_not_verified"
+  },
+  {
+    "channel": "Shabake 3",
+    "officialPage": "https://telewebion.net/live/tv3",
+    "streamUrl": null,
+    "status": "official_page_found_stream_not_verified"
+  },
+  {
+    "channel": "Shabake 4",
+    "officialPage": "https://telewebion.net/live/tv4",
+    "streamUrl": null,
+    "status": "official_page_found_stream_not_verified"
+  },
+  {
+    "channel": "Shabake 5",
+    "officialPage": "https://telewebion.net/live/tehran",
+    "streamUrl": null,
+    "status": "official_page_found_stream_not_verified"
+  },
+  {
+    "channel": "Shabake Khabar",
+    "officialPage": "https://telewebion.net/live/irinn",
+    "streamUrl": null,
+    "status": "official_page_found_stream_not_verified"
+  },
+  {
+    "channel": "Shabake Khabar 2",
+    "officialPage": "https://telewebion.net/live/irinn2",
+    "streamUrl": null,
+    "status": "official_page_found_stream_not_verified"
+  },
+  {
+    "channel": "Varzesh",
+    "officialPage": "https://telewebion.net/live/varzesh",
+    "streamUrl": null,
+    "status": "official_page_found_stream_not_verified"
+  },
+  {
+    "channel": "Mostanad",
+    "officialPage": "https://telewebion.net/live/mostanad",
+    "streamUrl": null,
+    "status": "official_page_found_stream_not_verified"
+  },
+  {
+    "channel": "Nasim",
+    "officialPage": "https://telewebion.net/live/nasim",
+    "streamUrl": null,
+    "status": "official_page_found_stream_not_verified"
+  },
+  {
+    "channel": "Namayesh",
+    "officialPage": "https://telewebion.net/live/namayesh",
+    "streamUrl": null,
+    "status": "official_page_found_stream_not_verified"
+  },
+  {
+    "channel": "Tamasha",
+    "officialPage": "https://telewebion.net/live/hdtest",
+    "streamUrl": null,
+    "status": "official_page_found_stream_not_verified"
+  },
+  {
+    "channel": "Pooya",
+    "officialPage": "https://telewebion.net/live/pooya",
+    "streamUrl": null,
+    "status": "official_page_found_stream_not_verified"
+  },
+  {
+    "channel": "Omid",
+    "officialPage": "https://telewebion.net/live/omid",
+    "streamUrl": null,
+    "status": "official_page_found_stream_not_verified"
+  },
+  {
+    "channel": "Salamat",
+    "officialPage": "https://telewebion.net/live/salamat",
+    "streamUrl": null,
+    "status": "official_page_found_stream_not_verified"
+  },
+  {
+    "channel": "Amouzesh",
+    "officialPage": "https://telewebion.net/live/amouzesh",
+    "streamUrl": null,
+    "status": "official_page_found_stream_not_verified"
+  },
+  {
+    "channel": "iFilm Farsi",
+    "officialPage": "https://telewebion.net/live/ifilm",
+    "streamUrl": null,
+    "status": "official_page_found_stream_not_verified"
+  },
+  {
+    "channel": "iFilm English",
+    "officialPage": null,
+    "streamUrl": null,
+    "status": "no_matching_official_page_verified"
+  },
+  {
+    "channel": "iFilm Arabic",
+    "officialPage": null,
+    "streamUrl": null,
+    "status": "no_matching_official_page_verified"
+  },
+  {
+    "channel": "iFilm Dari",
+    "officialPage": null,
+    "streamUrl": null,
+    "status": "no_matching_official_page_verified"
+  },
+  {
+    "channel": "Press TV",
+    "officialPage": "https://telewebion.net/live/presstv",
+    "streamUrl": null,
+    "status": "official_page_found_stream_not_verified"
+  },
+  {
+    "channel": "Ofogh",
+    "officialPage": "https://telewebion.net/live/ofogh",
+    "streamUrl": null,
+    "status": "official_page_found_stream_not_verified"
+  },
+  {
+    "channel": "Quran",
+    "officialPage": "https://telewebion.net/live/quran",
+    "streamUrl": null,
+    "status": "official_page_found_stream_not_verified"
+  },
+  {
+    "channel": "Alalam",
+    "officialPage": "https://telewebion.net/live/alalam",
+    "streamUrl": null,
+    "status": "official_page_found_stream_not_verified"
+  },
+  {
+    "channel": "IRNA TV",
+    "officialPage": null,
+    "streamUrl": null,
+    "status": "no_matching_official_page_verified"
+  }
+]
