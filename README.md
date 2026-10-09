@@ -57,3 +57,7 @@ const linkedinUrl='';
 این نسخه متاتگ‌های Open Graph/Twitter، تصویر `public/og-image.png`، فایل‌های `robots.txt` و `sitemap.xml` و داده ساخت‌یافته WebSite دارد. آدرس اصلی https://tvnama.github.io/ است و `vite.config.js` با `base: "/"` تنظیم شده است.
 
 بعد از انتشار، https://tvnama.github.io/og-image.png و https://tvnama.github.io/sitemap.xml را بررسی کنید. برای نمایه‌سازی گوگل از Google Search Console استفاده کنید. پیش‌نمایش شبکه‌های اجتماعی ممکن است کش شود.
+
+
+## لینک مستقیم شبکه‌ها
+با کلیک روی شبکه، نشانی صفحه بدون بارگذاری مجدد به شکل `https://tvnama.github.io/?channel=CHANNEL_ID` تغییر می‌کند. لینک را می‌توان کپی و ارسال کرد. رفت‌وبرگشت مرورگر نیز انتخاب شبکه را به‌روزرسانی می‌کند. متادیتای Open Graph برای لینک‌های دارای پارامتر، در هاست استاتیک GitHub Pages همچنان متادیتای کلی سایت است.

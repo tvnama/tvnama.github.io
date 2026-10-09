@@ -28,8 +28,16 @@ function Player({channel}) {
  </div>;
 }
 
+// A shareable query parameter controls the channel without a page reload.
+function getChannelFromUrl(){return new URLSearchParams(window.location.search).get('channel')}
+function updateChannelUrl(channelId){
+ const next=new URL(window.location.href);
+ if(channelId)next.searchParams.set('channel',channelId);
+ else next.searchParams.delete('channel');
+ window.history.pushState({channel:channelId},'',next.pathname+next.search+next.hash);
+}
 function App(){
- const [remote,setRemote]=useState([]),[siteOrder,setSiteOrder]=useState([]),[selected,setSelected]=useState(null),[activeCat,setActiveCat]=useState('همه شبکه‌ها'),[search,setSearch]=useState(''),[favorites,setFavorites]=useState(readFavs),[copied,setCopied]=useState(false),[customUrl,setCustomUrl]=useState(''),[listOnlyLive,setListOnlyLive]=useState(false),[status,setStatus]=useState('شبکه‌ها با iframe پارسا تی‌وی بارگذاری می‌شوند');
+ const [remote,setRemote]=useState([]),[siteOrder,setSiteOrder]=useState([]),[selected,setSelected]=useState(getChannelFromUrl),[activeCat,setActiveCat]=useState('همه شبکه‌ها'),[search,setSearch]=useState(''),[favorites,setFavorites]=useState(readFavs),[copied,setCopied]=useState(false),[customUrl,setCustomUrl]=useState(''),[listOnlyLive,setListOnlyLive]=useState(false),[status,setStatus]=useState('شبکه‌ها با iframe پارسا تی‌وی بارگذاری می‌شوند');
  useEffect(()=>{fetch(CATALOG_URL,{cache:'no-store'}).then(r=>{if(!r.ok)throw Error('http '+r.status);return r.json()}).then(d=>{if(Array.isArray(d)){setRemote(d);setStatus('فهرست شبکه‌ها برای پخش iframe آماده است')}}).catch(()=>setStatus('فهرست اصلی شبکه‌ها آماده است'));},[]);
  useEffect(()=>{fetch(ORDER_URL,{cache:'no-store'}).then(r=>{if(!r.ok)throw Error('order');return r.json()}).then(d=>{if(Array.isArray(d))setSiteOrder(d)}).catch(()=>{});},[]);
  const channels=useMemo(()=>{const map=new Map(seed.map(c=>[c.id,c]));const byName=new Map(seed.map(c=>[channelKey(c.originalName),c.id]));remote.forEach(c=>{if(!c?.name||!c?.id)return;const id=byName.get(channelKey(c.originalName||c.name))||c.id;const old=map.get(id)||{};map.set(id,{...old,...c,id,name:old.name||displayName(c.name,c.category),originalName:old.originalName||c.name,parsaName:c.parsaName||old.parsaName||c.name.replaceAll(' ','-'),sourcePage:c.sourcePage||old.sourcePage,type:'iframe'})});return [...map.values()]},[remote]);
@@ -41,6 +49,19 @@ function App(){
   return 0;
  }),[channels,activeCat,favorites,search,siteRanks]);
  const current=selected ? (channels.find(c=>c.id===selected)||null) : null;
+ const selectChannel=(id)=>{
+  if(id===selected)return;
+  setSelected(id);
+  updateChannelUrl(id);
+ };
+ useEffect(()=>{
+  const onNavigate=()=>setSelected(getChannelFromUrl());
+  window.addEventListener('popstate',onNavigate);
+  return ()=>window.removeEventListener('popstate',onNavigate);
+ },[]);
+ useEffect(()=>{
+  document.title=current ? `${current.name} | پخش آنلاین در ماه‌نما` : 'ماه‌نما | تماشای آنلاین شبکه‌های ماهواره‌ای و فارسی';
+ },[current?.name]);
  const toggleFav=c=>{setFavorites(prev=>{const next=prev.includes(c.id)?prev.filter(id=>id!==c.id):[...prev,c.id];localStorage.setItem('mahnama.favorites',JSON.stringify(next));return next})};
  const addCustom=()=>{try{const u=new URL(customUrl);if(!['http:','https:'].includes(u.protocol))throw Error();const c={id:'user-stream',name:'استریم شخصی',category:'فارسی',streamUrl:u.href,type:/\.m3u8(?:\?|$)/i.test(u.href)?'hls':'direct',sourcePage:u.href};setRemote(prev=>[...prev.filter(v=>v.id!==c.id),c]);setSelected(c.id);setCustomUrl('')}catch{alert('لینک صحیح http یا https وارد کنید.')}};
  const copyWallet=()=>{if(wallet.address==='YOUR_WALLET_ADDRESS')return;navigator.clipboard?.writeText(wallet.address).then(()=>{setCopied(true);setTimeout(()=>setCopied(false),1600)})};
@@ -51,7 +72,7 @@ function App(){
  <section id="categories" className="category-section"><div className="heading-inline"><h2>دسته‌بندی شبکه‌ها</h2><span>{channels.length.toLocaleString('fa-IR')} شبکه</span></div><div className="category-chips">{categories.map(cat=><button key={cat} className={activeCat===cat?'active':''} onClick={()=>setActiveCat(cat)}>{cat==='مورد علاقه‌ها'?<Star size={15}/>:<Tv size={15}/>} {cat}</button>)}</div></section>
  
  <div className="under-ad">فضای تبلیغ شما <a href="#ads">درخواست تبلیغات ←</a></div></div>
- <aside className="channel-sidebar"><div className="side-heading"><div><h2>لیست شبکه‌ها</h2><small>{filtered.length.toLocaleString('fa-IR')} شبکه · iframe</small></div><Radio size={20}/></div><div className="sidebar-categories" aria-label="دسته‌بندی شبکه‌ها"><div className="sidebar-tabs" role="group" aria-label="فیلتر دسته‌بندی">{categories.map(cat=><button type="button" key={cat} aria-pressed={activeCat===cat} className={'sidebar-tab '+(activeCat===cat?'active':'')} onClick={()=>setActiveCat(cat)}>{cat==='مورد علاقه‌ها'?<Star size={13}/>:null}<span>{cat}</span></button>)}</div></div><label className="side-search"><Search size={18}/><input value={search} onChange={e=>setSearch(e.target.value)} placeholder="جست‌وجوی شبکه..."/></label><p className="catalog-status">{status}</p><div className="channel-scroll">{filtered.map(c=><div key={c.id} className={'side-channel '+(c.id===current?.id?'selected':'')}><button className="side-channel-main" onClick={()=>setSelected(c.id)}><span className="channel-avatar"><Tv size={18}/></span><span className="side-channel-title"><strong dir="auto">{c.name}</strong><small>{c.category} · پخش از پارسا تی‌وی</small></span><span className="live-indicator" title="پخش از طریق iframe تنظیم شده؛ فعال بودن شبکه تأیید نشده"><span className="stream-dot yes"/><span className="live-text">LIVE</span></span></button><button className={'side-star '+(favorites.includes(c.id)?'on':'')} aria-label={'علاقه‌مندی '+c.name} title="ستاره" onClick={()=>toggleFav(c)}><Star size={17} fill={favorites.includes(c.id)?'currentColor':'none'}/></button></div>)}{filtered.length===0&&<div className="empty-list">شبکه‌ای با این مشخصات پیدا نشد.</div>}</div></aside></section>
+ <aside className="channel-sidebar"><div className="side-heading"><div><h2>لیست شبکه‌ها</h2><small>{filtered.length.toLocaleString('fa-IR')} شبکه</small></div><Radio size={20}/></div><div className="sidebar-categories" aria-label="دسته‌بندی شبکه‌ها"><div className="sidebar-tabs" role="group" aria-label="فیلتر دسته‌بندی">{categories.map(cat=><button type="button" key={cat} aria-pressed={activeCat===cat} className={'sidebar-tab '+(activeCat===cat?'active':'')} onClick={()=>setActiveCat(cat)}>{cat==='مورد علاقه‌ها'?<Star size={13}/>:null}<span>{cat}</span></button>)}</div></div><label className="side-search"><Search size={18}/><input value={search} onChange={e=>setSearch(e.target.value)} placeholder="جست‌وجوی شبکه..."/></label><p className="catalog-status">{status}</p><div className="channel-scroll">{filtered.map(c=><div key={c.id} className={'side-channel '+(c.id===current?.id?'selected':'')}><button className="side-channel-main" onClick={()=>selectChannel(c.id)}><span className="channel-avatar"><Tv size={18}/></span><span className="side-channel-title"><strong dir="auto">{c.name}</strong><small>{c.category}</small></span><span className="live-indicator" title="نمایش زنده (پخش‌پذیری استریم تأیید نشده)"><span className="stream-dot yes"/><span className="live-text">LIVE</span></span></button><button className={'side-star '+(favorites.includes(c.id)?'on':'')} aria-label={'علاقه‌مندی '+c.name} title="ستاره" onClick={()=>toggleFav(c)}><Star size={17} fill={favorites.includes(c.id)?'currentColor':'none'}/></button></div>)}{filtered.length===0&&<div className="empty-list">شبکه‌ای با این مشخصات پیدا نشد.</div>}</div></aside></section>
  <section id="ads" className="ads"><div className="section-label">همکاری با ما</div><h2>جایگاه‌های تبلیغاتی</h2><div className="ads-grid">{adSlots.map((ad,i)=><a href={ad.link} key={i} className="ad-card"><div className="ad-illustration">✦</div><div><span className="ad-caption">جایگاه {i+1}</span><h3>{ad.title}</h3><p>{ad.desc}</p><span className="ad-cta">{ad.cta} ←</span></div></a>)}</div></section>
  <section id="donate" className="donate"><div className="donate-copy"><div className="section-label"><Heart size={16}/> حمایت از سایت</div><h2>حمایت مالی از ماه‌نما</h2><p>برای توسعه سایت و نگهداری لیست شبکه‌ها می‌توانید از پروژه حمایت کنید.</p><span className="network-tag"><Wallet size={16}/> شبکه: {wallet.network}</span></div><div className="wallet-card"><span>آدرس کیف پول</span><div className="wallet-address" dir="ltr"><code>{wallet.address}</code><button onClick={copyWallet} disabled={wallet.address==='YOUR_WALLET_ADDRESS'}>{copied?<Check size={18}/>:<Copy size={18}/>}</button></div><small>قبل از ارسال، شبکه و آدرس را با دقت بررسی کنید.</small></div></section><div className="disclaimer"><Info size={18}/> نمایش iframe وابسته به دسترسی و اجازه سایت ParsaTV است. بارگذاری iframe تضمین پخش شبکه نیست. حقوق پخش شبکه‌ها باید رعایت شود.</div></main><footer><div className="footer-inner"><strong>ماه‌نما · تماشای آنلاین ماهواره</strong><div className="footer-credits"><span>طراحی توسط {linkedinUrl?<a href={linkedinUrl} target="_blank" rel="noopener noreferrer" className="designer-link">میثم علیان نژادی ↗</a>:<span className="designer-name">میثم علیان نژادی</span>}</span></div></div></footer></div>
 }
