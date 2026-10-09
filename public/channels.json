@@ -1,1 +1,2000 @@
-[]
+[
+  {
+    "id": "persiana-iranian",
+    "name": "پرشیانا ایرانی",
+    "originalName": "Persiana Iranian",
+    "parsaName": "Persiana-Iranian",
+    "category": "فارسی",
+    "sourcePage": "https://www.parsatv.com/name%3DPersiana-Iranian",
+    "type": "iframe"
+  },
+  {
+    "id": "pars-tv",
+    "name": "پارس تی‌وی",
+    "originalName": "Pars TV",
+    "parsaName": "Pars-TV",
+    "category": "فارسی",
+    "sourcePage": "https://www.parsatv.com/name%3DPars-TV",
+    "type": "iframe"
+  },
+  {
+    "id": "iran-international",
+    "name": "ایران اینترنشنال",
+    "originalName": "Iran International",
+    "parsaName": "Iran-International",
+    "category": "فارسی",
+    "sourcePage": "https://www.parsatv.com/name%3DIran-International",
+    "type": "iframe"
+  },
+  {
+    "id": "bbc-persian",
+    "name": "بی‌بی‌سی فارسی",
+    "originalName": "BBC Persian",
+    "parsaName": "BBC-Persian",
+    "category": "فارسی",
+    "sourcePage": "https://www.parsatv.com/name%3DBBC-Persian",
+    "type": "iframe"
+  },
+  {
+    "id": "voa-pnn",
+    "name": "صدای آمریکا",
+    "originalName": "VOA PNN",
+    "parsaName": "VOA-PNN",
+    "category": "فارسی",
+    "sourcePage": "https://www.parsatv.com/name%3DVOA-PNN",
+    "type": "iframe"
+  },
+  {
+    "id": "iran-wire",
+    "name": "ایران وایر",
+    "originalName": "Iran Wire",
+    "parsaName": "Iran-Wire",
+    "category": "فارسی",
+    "sourcePage": "https://www.parsatv.com/name%3DIran-Wire",
+    "type": "iframe"
+  },
+  {
+    "id": "mihan-tv",
+    "name": "میهن تی‌وی",
+    "originalName": "Mihan TV",
+    "parsaName": "Mihan-TV",
+    "category": "فارسی",
+    "sourcePage": "https://www.parsatv.com/name%3DMihan-TV",
+    "type": "iframe"
+  },
+  {
+    "id": "channel-one",
+    "name": "کانال یک",
+    "originalName": "Channel One",
+    "parsaName": "Channel-One",
+    "category": "فارسی",
+    "sourcePage": "https://www.parsatv.com/name%3DChannel-One",
+    "type": "iframe"
+  },
+  {
+    "id": "manoto-tv",
+    "name": "من‌وتو",
+    "originalName": "Manoto TV",
+    "parsaName": "Manoto-TV",
+    "category": "فارسی",
+    "sourcePage": "https://www.parsatv.com/name%3DManoto-TV",
+    "type": "iframe"
+  },
+  {
+    "id": "radio-farda-tv",
+    "name": "رادیو فردا",
+    "originalName": "Radio Farda TV",
+    "parsaName": "Radio-Farda-TV",
+    "category": "فارسی",
+    "sourcePage": "https://www.parsatv.com/name%3DRadio-Farda-TV",
+    "type": "iframe"
+  },
+  {
+    "id": "euronews-fa",
+    "name": "یورونیوز فارسی",
+    "originalName": "Euronews FA",
+    "parsaName": "Euronews-FA",
+    "category": "فارسی",
+    "sourcePage": "https://www.parsatv.com/name%3DEuronews-FA",
+    "type": "iframe"
+  },
+  {
+    "id": "simaye-azadi",
+    "name": "سیمای آزادی",
+    "originalName": "Simaye Azadi",
+    "parsaName": "Simaye-Azadi",
+    "category": "فارسی",
+    "sourcePage": "https://www.parsatv.com/name%3DSimaye-Azadi",
+    "type": "iframe"
+  },
+  {
+    "id": "iran-independent",
+    "name": "ایران ایندیپندنت",
+    "originalName": "Iran Independent",
+    "parsaName": "Iran-Independent",
+    "category": "فارسی",
+    "sourcePage": "https://www.parsatv.com/name%3DIran-Independent",
+    "type": "iframe"
+  },
+  {
+    "id": "pmc",
+    "name": "پی‌ام‌سی",
+    "originalName": "PMC",
+    "parsaName": "PMC",
+    "category": "فارسی",
+    "sourcePage": "https://www.parsatv.com/name%3DPMC",
+    "type": "iframe"
+  },
+  {
+    "id": "pmc-royale",
+    "name": "پی‌ام‌سی رویال",
+    "originalName": "PMC Royale",
+    "parsaName": "PMC-Royale",
+    "category": "فارسی",
+    "sourcePage": "https://www.parsatv.com/name%3DPMC-Royale",
+    "type": "iframe"
+  },
+  {
+    "id": "navahang-tv",
+    "name": "نواهنگ",
+    "originalName": "Navahang TV",
+    "parsaName": "Navahang-TV",
+    "category": "فارسی",
+    "sourcePage": "https://www.parsatv.com/name%3DNavahang-TV",
+    "type": "iframe"
+  },
+  {
+    "id": "tapesh",
+    "name": "طپش",
+    "originalName": "Tapesh",
+    "parsaName": "Tapesh",
+    "category": "فارسی",
+    "sourcePage": "https://www.parsatv.com/name%3DTapesh",
+    "type": "iframe"
+  },
+  {
+    "id": "tapesh-iran",
+    "name": "طپش ایران",
+    "originalName": "Tapesh Iran",
+    "parsaName": "Tapesh-Iran",
+    "category": "فارسی",
+    "sourcePage": "https://www.parsatv.com/name%3DTapesh-Iran",
+    "type": "iframe"
+  },
+  {
+    "id": "mbc-persia",
+    "name": "ام‌بی‌سی پرشیا",
+    "originalName": "MBC Persia",
+    "parsaName": "MBC-Persia",
+    "category": "فارسی",
+    "sourcePage": "https://www.parsatv.com/name%3DMBC-Persia",
+    "type": "iframe"
+  },
+  {
+    "id": "4u-tv",
+    "name": "فور یو",
+    "originalName": "4U TV",
+    "parsaName": "4U-TV",
+    "category": "فارسی",
+    "sourcePage": "https://www.parsatv.com/name%3D4U-TV",
+    "type": "iframe"
+  },
+  {
+    "id": "4u-family",
+    "name": "فور یو فمیلی",
+    "originalName": "4U Family",
+    "parsaName": "4U-Family",
+    "category": "فارسی",
+    "sourcePage": "https://www.parsatv.com/name%3D4U-Family",
+    "type": "iframe"
+  },
+  {
+    "id": "t2-tv",
+    "name": "تی‌تو",
+    "originalName": "T2 TV",
+    "parsaName": "T2-TV",
+    "category": "فارسی",
+    "sourcePage": "https://www.parsatv.com/name%3DT2-TV",
+    "type": "iframe"
+  },
+  {
+    "id": "t2-movies",
+    "name": "تی‌تو موویز",
+    "originalName": "T2 Movies",
+    "parsaName": "T2-Movies",
+    "category": "فارسی",
+    "sourcePage": "https://www.parsatv.com/name%3DT2-Movies",
+    "type": "iframe"
+  },
+  {
+    "id": "persiana-tv",
+    "name": "پرشیانا تی‌وی",
+    "originalName": "Persiana TV",
+    "parsaName": "Persiana-TV",
+    "category": "فارسی",
+    "sourcePage": "https://www.parsatv.com/name%3DPersiana-TV",
+    "type": "iframe"
+  },
+  {
+    "id": "persiana-music",
+    "name": "پرشیانا موزیک",
+    "originalName": "Persiana Music",
+    "parsaName": "Persiana-Music",
+    "category": "فارسی",
+    "sourcePage": "https://www.parsatv.com/name%3DPersiana-Music",
+    "type": "iframe"
+  },
+  {
+    "id": "persiana-cinema",
+    "name": "پرشیانا سینما",
+    "originalName": "Persiana Cinema",
+    "parsaName": "Persiana-Cinema",
+    "category": "فارسی",
+    "sourcePage": "https://www.parsatv.com/name%3DPersiana-Cinema",
+    "type": "iframe"
+  },
+  {
+    "id": "persiana-series",
+    "name": "پرشیانا سریال",
+    "originalName": "Persiana Series",
+    "parsaName": "Persiana-Series",
+    "category": "فارسی",
+    "sourcePage": "https://www.parsatv.com/name%3DPersiana-Series",
+    "type": "iframe"
+  },
+  {
+    "id": "persiana-doc",
+    "name": "پرشیانا مستند",
+    "originalName": "Persiana Doc",
+    "parsaName": "Persiana-Doc",
+    "category": "فارسی",
+    "sourcePage": "https://www.parsatv.com/name%3DPersiana-Doc",
+    "type": "iframe"
+  },
+  {
+    "id": "persiana-science",
+    "name": "پرشیانا علم",
+    "originalName": "Persiana Science",
+    "parsaName": "Persiana-Science",
+    "category": "فارسی",
+    "sourcePage": "https://www.parsatv.com/name%3DPersiana-Science",
+    "type": "iframe"
+  },
+  {
+    "id": "persiana-comedy",
+    "name": "پرشیانا کمدی",
+    "originalName": "Persiana Comedy",
+    "parsaName": "Persiana-Comedy",
+    "category": "فارسی",
+    "sourcePage": "https://www.parsatv.com/name%3DPersiana-Comedy",
+    "type": "iframe"
+  },
+  {
+    "id": "persiana-sports-1",
+    "name": "پرشیانا اسپرت ۱",
+    "originalName": "Persiana Sports 1",
+    "parsaName": "Persiana-Sports-1",
+    "category": "فارسی",
+    "sourcePage": "https://www.parsatv.com/name%3DPersiana-Sports-1",
+    "type": "iframe"
+  },
+  {
+    "id": "persiana-sports-2",
+    "name": "پرشیانا اسپرت ۲",
+    "originalName": "Persiana Sports 2",
+    "parsaName": "Persiana-Sports-2",
+    "category": "فارسی",
+    "sourcePage": "https://www.parsatv.com/name%3DPersiana-Sports-2",
+    "type": "iframe"
+  },
+  {
+    "id": "gem-tv",
+    "name": "جم تی‌وی",
+    "originalName": "GEM TV",
+    "parsaName": "GEM-TV",
+    "category": "فارسی",
+    "sourcePage": "https://www.parsatv.com/name%3DGEM-TV",
+    "type": "iframe"
+  },
+  {
+    "id": "gem-series",
+    "name": "جم سریال",
+    "originalName": "GEM Series",
+    "parsaName": "GEM-Series",
+    "category": "فارسی",
+    "sourcePage": "https://www.parsatv.com/name%3DGEM-Series",
+    "type": "iframe"
+  },
+  {
+    "id": "gem-film",
+    "name": "جم فیلم",
+    "originalName": "GEM Film",
+    "parsaName": "GEM-Film",
+    "category": "فارسی",
+    "sourcePage": "https://www.parsatv.com/name%3DGEM-Film",
+    "type": "iframe"
+  },
+  {
+    "id": "gem-drama",
+    "name": "جم دراما",
+    "originalName": "GEM Drama",
+    "parsaName": "GEM-Drama",
+    "category": "فارسی",
+    "sourcePage": "https://www.parsatv.com/name%3DGEM-Drama",
+    "type": "iframe"
+  },
+  {
+    "id": "gem-comedy",
+    "name": "جم کمدی",
+    "originalName": "GEM Comedy",
+    "parsaName": "GEM-Comedy",
+    "category": "فارسی",
+    "sourcePage": "https://www.parsatv.com/name%3DGEM-Comedy",
+    "type": "iframe"
+  },
+  {
+    "id": "gem-kids",
+    "name": "جم کودک",
+    "originalName": "GEM Kids",
+    "parsaName": "GEM-Kids",
+    "category": "فارسی",
+    "sourcePage": "https://www.parsatv.com/name%3DGEM-Kids",
+    "type": "iframe"
+  },
+  {
+    "id": "gem-life",
+    "name": "جم لایف",
+    "originalName": "GEM Life",
+    "parsaName": "GEM-Life",
+    "category": "فارسی",
+    "sourcePage": "https://www.parsatv.com/name%3DGEM-Life",
+    "type": "iframe"
+  },
+  {
+    "id": "gem-classic",
+    "name": "جم کلاسیک",
+    "originalName": "GEM Classic",
+    "parsaName": "GEM-Classic",
+    "category": "فارسی",
+    "sourcePage": "https://www.parsatv.com/name%3DGEM-Classic",
+    "type": "iframe"
+  },
+  {
+    "id": "gem-bollywood",
+    "name": "جم بالیوود",
+    "originalName": "GEM Bollywood",
+    "parsaName": "GEM-Bollywood",
+    "category": "فارسی",
+    "sourcePage": "https://www.parsatv.com/name%3DGEM-Bollywood",
+    "type": "iframe"
+  },
+  {
+    "id": "gem-nature",
+    "name": "جم طبیعت",
+    "originalName": "GEM Nature",
+    "parsaName": "GEM-Nature",
+    "category": "فارسی",
+    "sourcePage": "https://www.parsatv.com/name%3DGEM-Nature",
+    "type": "iframe"
+  },
+  {
+    "id": "gem-food",
+    "name": "جم غذا",
+    "originalName": "GEM Food",
+    "parsaName": "GEM-Food",
+    "category": "فارسی",
+    "sourcePage": "https://www.parsatv.com/name%3DGEM-Food",
+    "type": "iframe"
+  },
+  {
+    "id": "gem-junior",
+    "name": "جم جونیور",
+    "originalName": "GEM Junior",
+    "parsaName": "GEM-Junior",
+    "category": "فارسی",
+    "sourcePage": "https://www.parsatv.com/name%3DGEM-Junior",
+    "type": "iframe"
+  },
+  {
+    "id": "gem-music",
+    "name": "جم موزیک",
+    "originalName": "GEM Music",
+    "parsaName": "GEM-Music",
+    "category": "فارسی",
+    "sourcePage": "https://www.parsatv.com/name%3DGEM-Music",
+    "type": "iframe"
+  },
+  {
+    "id": "gem-sport",
+    "name": "جم اسپرت",
+    "originalName": "GEM Sport",
+    "parsaName": "GEM-Sport",
+    "category": "فارسی",
+    "sourcePage": "https://www.parsatv.com/name%3DGEM-Sport",
+    "type": "iframe"
+  },
+  {
+    "id": "khatereh-tv",
+    "name": "خاطره",
+    "originalName": "Khatereh TV",
+    "parsaName": "Khatereh-TV",
+    "category": "فارسی",
+    "sourcePage": "https://www.parsatv.com/name%3DKhatereh-TV",
+    "type": "iframe"
+  },
+  {
+    "id": "ekran-movies",
+    "name": "اکران فیلم",
+    "originalName": "Ekran Movies",
+    "parsaName": "Ekran-Movies",
+    "category": "فارسی",
+    "sourcePage": "https://www.parsatv.com/name%3DEkran-Movies",
+    "type": "iframe"
+  },
+  {
+    "id": "afra-film",
+    "name": "افرا فیلم",
+    "originalName": "Afra Film",
+    "parsaName": "Afra-Film",
+    "category": "فارسی",
+    "sourcePage": "https://www.parsatv.com/name%3DAfra-Film",
+    "type": "iframe"
+  },
+  {
+    "id": "afra-series",
+    "name": "افرا سریال",
+    "originalName": "Afra Series",
+    "parsaName": "Afra-Series",
+    "category": "فارسی",
+    "sourcePage": "https://www.parsatv.com/name%3DAfra-Series",
+    "type": "iframe"
+  },
+  {
+    "id": "grand-cinema",
+    "name": "گرند سینما",
+    "originalName": "Grand Cinema",
+    "parsaName": "Grand-Cinema",
+    "category": "فارسی",
+    "sourcePage": "https://www.parsatv.com/name%3DGrand-Cinema",
+    "type": "iframe"
+  },
+  {
+    "id": "oxir-tv",
+    "name": "اکسیر",
+    "originalName": "Oxir TV",
+    "parsaName": "Oxir-TV",
+    "category": "فارسی",
+    "sourcePage": "https://www.parsatv.com/name%3DOxir-TV",
+    "type": "iframe"
+  },
+  {
+    "id": "royal-time-tv",
+    "name": "رویال تایم",
+    "originalName": "Royal Time TV",
+    "parsaName": "Royal-Time-TV",
+    "category": "فارسی",
+    "sourcePage": "https://www.parsatv.com/name%3DRoyal-Time-TV",
+    "type": "iframe"
+  },
+  {
+    "id": "shabake-1",
+    "name": "شبکه یک",
+    "originalName": "Shabake 1",
+    "parsaName": "Shabake-1",
+    "category": "ایران",
+    "sourcePage": "https://www.parsatv.com/name%3DShabake-1",
+    "type": "iframe"
+  },
+  {
+    "id": "shabake-2",
+    "name": "شبکه دو",
+    "originalName": "Shabake 2",
+    "parsaName": "Shabake-2",
+    "category": "ایران",
+    "sourcePage": "https://www.parsatv.com/name%3DShabake-2",
+    "type": "iframe"
+  },
+  {
+    "id": "shabake-3",
+    "name": "شبکه سه",
+    "originalName": "Shabake 3",
+    "parsaName": "Shabake-3",
+    "category": "ایران",
+    "sourcePage": "https://www.parsatv.com/name%3DShabake-3",
+    "type": "iframe"
+  },
+  {
+    "id": "shabake-4",
+    "name": "شبکه چهار",
+    "originalName": "Shabake 4",
+    "parsaName": "Shabake-4",
+    "category": "ایران",
+    "sourcePage": "https://www.parsatv.com/name%3DShabake-4",
+    "type": "iframe"
+  },
+  {
+    "id": "shabake-5",
+    "name": "شبکه پنج",
+    "originalName": "Shabake 5",
+    "parsaName": "Shabake-5",
+    "category": "ایران",
+    "sourcePage": "https://www.parsatv.com/name%3DShabake-5",
+    "type": "iframe"
+  },
+  {
+    "id": "shabake-khabar",
+    "name": "شبکه خبر",
+    "originalName": "Shabake Khabar",
+    "parsaName": "Shabake-Khabar",
+    "category": "ایران",
+    "sourcePage": "https://www.parsatv.com/name%3DShabake-Khabar",
+    "type": "iframe"
+  },
+  {
+    "id": "shabake-khabar-2",
+    "name": "شبکه خبر ۲",
+    "originalName": "Shabake Khabar 2",
+    "parsaName": "Shabake-Khabar-2",
+    "category": "ایران",
+    "sourcePage": "https://www.parsatv.com/name%3DShabake-Khabar-2",
+    "type": "iframe"
+  },
+  {
+    "id": "varzesh",
+    "name": "شبکه ورزش",
+    "originalName": "Varzesh",
+    "parsaName": "Varzesh",
+    "category": "ایران",
+    "sourcePage": "https://www.parsatv.com/name%3DVarzesh",
+    "type": "iframe"
+  },
+  {
+    "id": "mostanad",
+    "name": "شبکه مستند",
+    "originalName": "Mostanad",
+    "parsaName": "Mostanad",
+    "category": "ایران",
+    "sourcePage": "https://www.parsatv.com/name%3DMostanad",
+    "type": "iframe"
+  },
+  {
+    "id": "nasim",
+    "name": "شبکه نسیم",
+    "originalName": "Nasim",
+    "parsaName": "Nasim",
+    "category": "ایران",
+    "sourcePage": "https://www.parsatv.com/name%3DNasim",
+    "type": "iframe"
+  },
+  {
+    "id": "namayesh",
+    "name": "شبکه نمایش",
+    "originalName": "Namayesh",
+    "parsaName": "Namayesh",
+    "category": "ایران",
+    "sourcePage": "https://www.parsatv.com/name%3DNamayesh",
+    "type": "iframe"
+  },
+  {
+    "id": "tamasha",
+    "name": "شبکه تماشا",
+    "originalName": "Tamasha",
+    "parsaName": "Tamasha",
+    "category": "ایران",
+    "sourcePage": "https://www.parsatv.com/name%3DTamasha",
+    "type": "iframe"
+  },
+  {
+    "id": "pooya",
+    "name": "شبکه پویا",
+    "originalName": "Pooya",
+    "parsaName": "Pooya",
+    "category": "ایران",
+    "sourcePage": "https://www.parsatv.com/name%3DPooya",
+    "type": "iframe"
+  },
+  {
+    "id": "omid",
+    "name": "شبکه امید",
+    "originalName": "Omid",
+    "parsaName": "Omid",
+    "category": "ایران",
+    "sourcePage": "https://www.parsatv.com/name%3DOmid",
+    "type": "iframe"
+  },
+  {
+    "id": "salamat",
+    "name": "شبکه سلامت",
+    "originalName": "Salamat",
+    "parsaName": "Salamat",
+    "category": "ایران",
+    "sourcePage": "https://www.parsatv.com/name%3DSalamat",
+    "type": "iframe"
+  },
+  {
+    "id": "amouzesh",
+    "name": "شبکه آموزش",
+    "originalName": "Amouzesh",
+    "parsaName": "Amouzesh",
+    "category": "ایران",
+    "sourcePage": "https://www.parsatv.com/name%3DAmouzesh",
+    "type": "iframe"
+  },
+  {
+    "id": "ifilm-farsi",
+    "name": "آی‌فیلم فارسی",
+    "originalName": "iFilm Farsi",
+    "parsaName": "iFilm-Farsi",
+    "category": "ایران",
+    "sourcePage": "https://www.parsatv.com/name%3DiFilm-Farsi",
+    "type": "iframe"
+  },
+  {
+    "id": "ifilm-english",
+    "name": "iFilm انگلیسی",
+    "originalName": "iFilm English",
+    "parsaName": "iFilm-English",
+    "category": "ایران",
+    "sourcePage": "https://www.parsatv.com/name%3DiFilm-English",
+    "type": "iframe"
+  },
+  {
+    "id": "ifilm-arabic",
+    "name": "iFilm عربی",
+    "originalName": "iFilm Arabic",
+    "parsaName": "iFilm-Arabic",
+    "category": "ایران",
+    "sourcePage": "https://www.parsatv.com/name%3DiFilm-Arabic",
+    "type": "iframe"
+  },
+  {
+    "id": "ifilm-dari",
+    "name": "آی‌فیلم دری",
+    "originalName": "iFilm Dari",
+    "parsaName": "iFilm-Dari",
+    "category": "ایران",
+    "sourcePage": "https://www.parsatv.com/name%3DiFilm-Dari",
+    "type": "iframe"
+  },
+  {
+    "id": "press-tv",
+    "name": "پرس تی‌وی",
+    "originalName": "Press TV",
+    "parsaName": "Press-TV",
+    "category": "ایران",
+    "sourcePage": "https://www.parsatv.com/name%3DPress-TV",
+    "type": "iframe"
+  },
+  {
+    "id": "ofogh",
+    "name": "شبکه افق",
+    "originalName": "Ofogh",
+    "parsaName": "Ofogh",
+    "category": "ایران",
+    "sourcePage": "https://www.parsatv.com/name%3DOfogh",
+    "type": "iframe"
+  },
+  {
+    "id": "quran",
+    "name": "شبکه قرآن",
+    "originalName": "Quran",
+    "parsaName": "Quran",
+    "category": "ایران",
+    "sourcePage": "https://www.parsatv.com/name%3DQuran",
+    "type": "iframe"
+  },
+  {
+    "id": "alalam",
+    "name": "العالم",
+    "originalName": "Alalam",
+    "parsaName": "Alalam",
+    "category": "ایران",
+    "sourcePage": "https://www.parsatv.com/name%3DAlalam",
+    "type": "iframe"
+  },
+  {
+    "id": "irna-tv",
+    "name": "ایرنا تی‌وی",
+    "originalName": "IRNA TV",
+    "parsaName": "IRNA-TV",
+    "category": "ایران",
+    "sourcePage": "https://www.parsatv.com/name%3DIRNA-TV",
+    "type": "iframe"
+  },
+  {
+    "id": "abadan",
+    "name": "آبادان",
+    "originalName": "Abadan",
+    "parsaName": "Abadan",
+    "category": "استانی",
+    "sourcePage": "https://www.parsatv.com/name%3DAbadan",
+    "type": "iframe"
+  },
+  {
+    "id": "alborz",
+    "name": "البرز",
+    "originalName": "Alborz",
+    "parsaName": "Alborz",
+    "category": "استانی",
+    "sourcePage": "https://www.parsatv.com/name%3DAlborz",
+    "type": "iframe"
+  },
+  {
+    "id": "ardabil",
+    "name": "اردبیل",
+    "originalName": "Ardabil",
+    "parsaName": "Ardabil",
+    "category": "استانی",
+    "sourcePage": "https://www.parsatv.com/name%3DArdabil",
+    "type": "iframe"
+  },
+  {
+    "id": "birjand",
+    "name": "بیرجند",
+    "originalName": "Birjand",
+    "parsaName": "Birjand",
+    "category": "استانی",
+    "sourcePage": "https://www.parsatv.com/name%3DBirjand",
+    "type": "iframe"
+  },
+  {
+    "id": "bojnourd",
+    "name": "بجنورد",
+    "originalName": "Bojnourd",
+    "parsaName": "Bojnourd",
+    "category": "استانی",
+    "sourcePage": "https://www.parsatv.com/name%3DBojnourd",
+    "type": "iframe"
+  },
+  {
+    "id": "booshehr",
+    "name": "بوشهر",
+    "originalName": "Booshehr",
+    "parsaName": "Booshehr",
+    "category": "استانی",
+    "sourcePage": "https://www.parsatv.com/name%3DBooshehr",
+    "type": "iframe"
+  },
+  {
+    "id": "chahar-mahal",
+    "name": "چهارمحال و بختیاری",
+    "originalName": "Chahar Mahal",
+    "parsaName": "Chahar-Mahal",
+    "category": "استانی",
+    "sourcePage": "https://www.parsatv.com/name%3DChahar-Mahal",
+    "type": "iframe"
+  },
+  {
+    "id": "esfahan",
+    "name": "اصفهان",
+    "originalName": "Esfahan",
+    "parsaName": "Esfahan",
+    "category": "استانی",
+    "sourcePage": "https://www.parsatv.com/name%3DEsfahan",
+    "type": "iframe"
+  },
+  {
+    "id": "fars",
+    "name": "فارس",
+    "originalName": "Fars",
+    "parsaName": "Fars",
+    "category": "استانی",
+    "sourcePage": "https://www.parsatv.com/name%3DFars",
+    "type": "iframe"
+  },
+  {
+    "id": "gilan",
+    "name": "گیلان",
+    "originalName": "Gilan",
+    "parsaName": "Gilan",
+    "category": "استانی",
+    "sourcePage": "https://www.parsatv.com/name%3DGilan",
+    "type": "iframe"
+  },
+  {
+    "id": "golestan",
+    "name": "گلستان",
+    "originalName": "Golestan",
+    "parsaName": "Golestan",
+    "category": "استانی",
+    "sourcePage": "https://www.parsatv.com/name%3DGolestan",
+    "type": "iframe"
+  },
+  {
+    "id": "hamedan",
+    "name": "همدان",
+    "originalName": "Hamedan",
+    "parsaName": "Hamedan",
+    "category": "استانی",
+    "sourcePage": "https://www.parsatv.com/name%3DHamedan",
+    "type": "iframe"
+  },
+  {
+    "id": "hormozgan",
+    "name": "هرمزگان",
+    "originalName": "Hormozgan",
+    "parsaName": "Hormozgan",
+    "category": "استانی",
+    "sourcePage": "https://www.parsatv.com/name%3DHormozgan",
+    "type": "iframe"
+  },
+  {
+    "id": "ilam",
+    "name": "ایلام",
+    "originalName": "Ilam",
+    "parsaName": "Ilam",
+    "category": "استانی",
+    "sourcePage": "https://www.parsatv.com/name%3DIlam",
+    "type": "iframe"
+  },
+  {
+    "id": "kerman",
+    "name": "کرمان",
+    "originalName": "Kerman",
+    "parsaName": "Kerman",
+    "category": "استانی",
+    "sourcePage": "https://www.parsatv.com/name%3DKerman",
+    "type": "iframe"
+  },
+  {
+    "id": "kermanshah",
+    "name": "کرمانشاه",
+    "originalName": "Kermanshah",
+    "parsaName": "Kermanshah",
+    "category": "استانی",
+    "sourcePage": "https://www.parsatv.com/name%3DKermanshah",
+    "type": "iframe"
+  },
+  {
+    "id": "khoozestan",
+    "name": "خوزستان",
+    "originalName": "Khoozestan",
+    "parsaName": "Khoozestan",
+    "category": "استانی",
+    "sourcePage": "https://www.parsatv.com/name%3DKhoozestan",
+    "type": "iframe"
+  },
+  {
+    "id": "kish",
+    "name": "کیش",
+    "originalName": "Kish",
+    "parsaName": "Kish",
+    "category": "استانی",
+    "sourcePage": "https://www.parsatv.com/name%3DKish",
+    "type": "iframe"
+  },
+  {
+    "id": "kordestan",
+    "name": "کردستان",
+    "originalName": "Kordestan",
+    "parsaName": "Kordestan",
+    "category": "استانی",
+    "sourcePage": "https://www.parsatv.com/name%3DKordestan",
+    "type": "iframe"
+  },
+  {
+    "id": "lorestan",
+    "name": "لرستان",
+    "originalName": "Lorestan",
+    "parsaName": "Lorestan",
+    "category": "استانی",
+    "sourcePage": "https://www.parsatv.com/name%3DLorestan",
+    "type": "iframe"
+  },
+  {
+    "id": "mahabad",
+    "name": "مهاباد",
+    "originalName": "Mahabad",
+    "parsaName": "Mahabad",
+    "category": "استانی",
+    "sourcePage": "https://www.parsatv.com/name%3DMahabad",
+    "type": "iframe"
+  },
+  {
+    "id": "markazi",
+    "name": "مرکزی",
+    "originalName": "Markazi",
+    "parsaName": "Markazi",
+    "category": "استانی",
+    "sourcePage": "https://www.parsatv.com/name%3DMarkazi",
+    "type": "iframe"
+  },
+  {
+    "id": "mashhad",
+    "name": "خراسان رضوی",
+    "originalName": "Mashhad",
+    "parsaName": "Mashhad",
+    "category": "استانی",
+    "sourcePage": "https://www.parsatv.com/name%3DMashhad",
+    "type": "iframe"
+  },
+  {
+    "id": "mazandaran",
+    "name": "مازندران",
+    "originalName": "Mazandaran",
+    "parsaName": "Mazandaran",
+    "category": "استانی",
+    "sourcePage": "https://www.parsatv.com/name%3DMazandaran",
+    "type": "iframe"
+  },
+  {
+    "id": "qazvin",
+    "name": "قزوین",
+    "originalName": "Qazvin",
+    "parsaName": "Qazvin",
+    "category": "استانی",
+    "sourcePage": "https://www.parsatv.com/name%3DQazvin",
+    "type": "iframe"
+  },
+  {
+    "id": "qom",
+    "name": "قم",
+    "originalName": "Qom",
+    "parsaName": "Qom",
+    "category": "استانی",
+    "sourcePage": "https://www.parsatv.com/name%3DQom",
+    "type": "iframe"
+  },
+  {
+    "id": "semnan",
+    "name": "سمنان",
+    "originalName": "Semnan",
+    "parsaName": "Semnan",
+    "category": "استانی",
+    "sourcePage": "https://www.parsatv.com/name%3DSemnan",
+    "type": "iframe"
+  },
+  {
+    "id": "sistan",
+    "name": "سیستان و بلوچستان",
+    "originalName": "Sistan",
+    "parsaName": "Sistan",
+    "category": "استانی",
+    "sourcePage": "https://www.parsatv.com/name%3DSistan",
+    "type": "iframe"
+  },
+  {
+    "id": "tabriz",
+    "name": "تبریز",
+    "originalName": "Tabriz",
+    "parsaName": "Tabriz",
+    "category": "استانی",
+    "sourcePage": "https://www.parsatv.com/name%3DTabriz",
+    "type": "iframe"
+  },
+  {
+    "id": "urmia",
+    "name": "ارومیه",
+    "originalName": "Urmia",
+    "parsaName": "Urmia",
+    "category": "استانی",
+    "sourcePage": "https://www.parsatv.com/name%3DUrmia",
+    "type": "iframe"
+  },
+  {
+    "id": "yasouj",
+    "name": "یاسوج",
+    "originalName": "Yasouj",
+    "parsaName": "Yasouj",
+    "category": "استانی",
+    "sourcePage": "https://www.parsatv.com/name%3DYasouj",
+    "type": "iframe"
+  },
+  {
+    "id": "yazd",
+    "name": "یزد",
+    "originalName": "Yazd",
+    "parsaName": "Yazd",
+    "category": "استانی",
+    "sourcePage": "https://www.parsatv.com/name%3DYazd",
+    "type": "iframe"
+  },
+  {
+    "id": "zanjan",
+    "name": "زنجان",
+    "originalName": "Zanjan",
+    "parsaName": "Zanjan",
+    "category": "استانی",
+    "sourcePage": "https://www.parsatv.com/name%3DZanjan",
+    "type": "iframe"
+  },
+  {
+    "id": "sky-news",
+    "name": "Sky News",
+    "originalName": "Sky News",
+    "parsaName": "Sky-News",
+    "category": "اخبار جهان",
+    "sourcePage": "https://www.parsatv.com/name%3DSky-News",
+    "type": "iframe"
+  },
+  {
+    "id": "cbs-news",
+    "name": "CBS News",
+    "originalName": "CBS News",
+    "parsaName": "CBS-News",
+    "category": "اخبار جهان",
+    "sourcePage": "https://www.parsatv.com/name%3DCBS-News",
+    "type": "iframe"
+  },
+  {
+    "id": "bloomberg",
+    "name": "Bloomberg",
+    "originalName": "Bloomberg",
+    "parsaName": "Bloomberg",
+    "category": "اخبار جهان",
+    "sourcePage": "https://www.parsatv.com/name%3DBloomberg",
+    "type": "iframe"
+  },
+  {
+    "id": "abc-news",
+    "name": "ABC News",
+    "originalName": "ABC News",
+    "parsaName": "ABC-News",
+    "category": "اخبار جهان",
+    "sourcePage": "https://www.parsatv.com/name%3DABC-News",
+    "type": "iframe"
+  },
+  {
+    "id": "france-24-en",
+    "name": "France 24 EN",
+    "originalName": "France 24 EN",
+    "parsaName": "France-24-EN",
+    "category": "اخبار جهان",
+    "sourcePage": "https://www.parsatv.com/name%3DFrance-24-EN",
+    "type": "iframe"
+  },
+  {
+    "id": "aljazeera",
+    "name": "Aljazeera",
+    "originalName": "Aljazeera",
+    "parsaName": "Aljazeera",
+    "category": "اخبار جهان",
+    "sourcePage": "https://www.parsatv.com/name%3DAljazeera",
+    "type": "iframe"
+  },
+  {
+    "id": "bbc-news",
+    "name": "BBC News",
+    "originalName": "BBC News",
+    "parsaName": "BBC-News",
+    "category": "اخبار جهان",
+    "sourcePage": "https://www.parsatv.com/name%3DBBC-News",
+    "type": "iframe"
+  },
+  {
+    "id": "wion",
+    "name": "WION",
+    "originalName": "WION",
+    "parsaName": "WION",
+    "category": "اخبار جهان",
+    "sourcePage": "https://www.parsatv.com/name%3DWION",
+    "type": "iframe"
+  },
+  {
+    "id": "dw-news",
+    "name": "DW News",
+    "originalName": "DW News",
+    "parsaName": "DW-News",
+    "category": "اخبار جهان",
+    "sourcePage": "https://www.parsatv.com/name%3DDW-News",
+    "type": "iframe"
+  },
+  {
+    "id": "nhk-world",
+    "name": "NHK World",
+    "originalName": "NHK World",
+    "parsaName": "NHK-World",
+    "category": "اخبار جهان",
+    "sourcePage": "https://www.parsatv.com/name%3DNHK-World",
+    "type": "iframe"
+  },
+  {
+    "id": "trt-world",
+    "name": "TRT World",
+    "originalName": "TRT World",
+    "parsaName": "TRT-World",
+    "category": "اخبار جهان",
+    "sourcePage": "https://www.parsatv.com/name%3DTRT-World",
+    "type": "iframe"
+  },
+  {
+    "id": "euronews-en",
+    "name": "Euronews EN",
+    "originalName": "Euronews EN",
+    "parsaName": "Euronews-EN",
+    "category": "اخبار جهان",
+    "sourcePage": "https://www.parsatv.com/name%3DEuronews-EN",
+    "type": "iframe"
+  },
+  {
+    "id": "euronews-fr",
+    "name": "Euronews FR",
+    "originalName": "Euronews FR",
+    "parsaName": "Euronews-FR",
+    "category": "اخبار جهان",
+    "sourcePage": "https://www.parsatv.com/name%3DEuronews-FR",
+    "type": "iframe"
+  },
+  {
+    "id": "euronews-ru",
+    "name": "Euronews RU",
+    "originalName": "Euronews RU",
+    "parsaName": "Euronews-RU",
+    "category": "اخبار جهان",
+    "sourcePage": "https://www.parsatv.com/name%3DEuronews-RU",
+    "type": "iframe"
+  },
+  {
+    "id": "fox-weather",
+    "name": "Fox Weather",
+    "originalName": "Fox Weather",
+    "parsaName": "Fox-Weather",
+    "category": "اخبار جهان",
+    "sourcePage": "https://www.parsatv.com/name%3DFox-Weather",
+    "type": "iframe"
+  },
+  {
+    "id": "accuweather",
+    "name": "AccuWeather",
+    "originalName": "AccuWeather",
+    "parsaName": "AccuWeather",
+    "category": "اخبار جهان",
+    "sourcePage": "https://www.parsatv.com/name%3DAccuWeather",
+    "type": "iframe"
+  },
+  {
+    "id": "cgtn-english",
+    "name": "CGTN English",
+    "originalName": "CGTN English",
+    "parsaName": "CGTN-English",
+    "category": "اخبار جهان",
+    "sourcePage": "https://www.parsatv.com/name%3DCGTN-English",
+    "type": "iframe"
+  },
+  {
+    "id": "cna-tv",
+    "name": "CNA TV",
+    "originalName": "CNA TV",
+    "parsaName": "CNA-TV",
+    "category": "اخبار جهان",
+    "sourcePage": "https://www.parsatv.com/name%3DCNA-TV",
+    "type": "iframe"
+  },
+  {
+    "id": "global-news",
+    "name": "Global News",
+    "originalName": "Global News",
+    "parsaName": "Global-News",
+    "category": "اخبار جهان",
+    "sourcePage": "https://www.parsatv.com/name%3DGlobal-News",
+    "type": "iframe"
+  },
+  {
+    "id": "yahoo-finance",
+    "name": "Yahoo Finance",
+    "originalName": "Yahoo Finance",
+    "parsaName": "Yahoo-Finance",
+    "category": "اخبار جهان",
+    "sourcePage": "https://www.parsatv.com/name%3DYahoo-Finance",
+    "type": "iframe"
+  },
+  {
+    "id": "newsmax-tv",
+    "name": "Newsmax TV",
+    "originalName": "Newsmax TV",
+    "parsaName": "Newsmax-TV",
+    "category": "اخبار جهان",
+    "sourcePage": "https://www.parsatv.com/name%3DNewsmax-TV",
+    "type": "iframe"
+  },
+  {
+    "id": "abc-news-au",
+    "name": "ABC News AU",
+    "originalName": "ABC News AU",
+    "parsaName": "ABC-News-AU",
+    "category": "اخبار جهان",
+    "sourcePage": "https://www.parsatv.com/name%3DABC-News-AU",
+    "type": "iframe"
+  },
+  {
+    "id": "france-24-fr",
+    "name": "France 24 FR",
+    "originalName": "France 24 FR",
+    "parsaName": "France-24-FR",
+    "category": "اخبار جهان",
+    "sourcePage": "https://www.parsatv.com/name%3DFrance-24-FR",
+    "type": "iframe"
+  },
+  {
+    "id": "atv",
+    "name": "ATV",
+    "originalName": "ATV",
+    "parsaName": "ATV",
+    "category": "ترکیه",
+    "sourcePage": "https://www.parsatv.com/name%3DATV",
+    "type": "iframe"
+  },
+  {
+    "id": "trt-1",
+    "name": "TRT 1",
+    "originalName": "TRT 1",
+    "parsaName": "TRT-1",
+    "category": "ترکیه",
+    "sourcePage": "https://www.parsatv.com/name%3DTRT-1",
+    "type": "iframe"
+  },
+  {
+    "id": "trt-2",
+    "name": "TRT 2",
+    "originalName": "TRT 2",
+    "parsaName": "TRT-2",
+    "category": "ترکیه",
+    "sourcePage": "https://www.parsatv.com/name%3DTRT-2",
+    "type": "iframe"
+  },
+  {
+    "id": "trt-haber",
+    "name": "TRT Haber",
+    "originalName": "TRT Haber",
+    "parsaName": "TRT-Haber",
+    "category": "ترکیه",
+    "sourcePage": "https://www.parsatv.com/name%3DTRT-Haber",
+    "type": "iframe"
+  },
+  {
+    "id": "trt-muzik",
+    "name": "TRT Muzik",
+    "originalName": "TRT Muzik",
+    "parsaName": "TRT-Muzik",
+    "category": "ترکیه",
+    "sourcePage": "https://www.parsatv.com/name%3DTRT-Muzik",
+    "type": "iframe"
+  },
+  {
+    "id": "trt-cocuk",
+    "name": "TRT Cocuk",
+    "originalName": "TRT Cocuk",
+    "parsaName": "TRT-Cocuk",
+    "category": "ترکیه",
+    "sourcePage": "https://www.parsatv.com/name%3DTRT-Cocuk",
+    "type": "iframe"
+  },
+  {
+    "id": "trt-spor",
+    "name": "TRT Spor",
+    "originalName": "TRT Spor",
+    "parsaName": "TRT-Spor",
+    "category": "ترکیه",
+    "sourcePage": "https://www.parsatv.com/name%3DTRT-Spor",
+    "type": "iframe"
+  },
+  {
+    "id": "trt-spor-2",
+    "name": "TRT Spor 2",
+    "originalName": "TRT Spor 2",
+    "parsaName": "TRT-Spor-2",
+    "category": "ترکیه",
+    "sourcePage": "https://www.parsatv.com/name%3DTRT-Spor-2",
+    "type": "iframe"
+  },
+  {
+    "id": "cnn-turk",
+    "name": "CNN Turk",
+    "originalName": "CNN Turk",
+    "parsaName": "CNN-Turk",
+    "category": "ترکیه",
+    "sourcePage": "https://www.parsatv.com/name%3DCNN-Turk",
+    "type": "iframe"
+  },
+  {
+    "id": "show-tv",
+    "name": "Show TV",
+    "originalName": "Show TV",
+    "parsaName": "Show-TV",
+    "category": "ترکیه",
+    "sourcePage": "https://www.parsatv.com/name%3DShow-TV",
+    "type": "iframe"
+  },
+  {
+    "id": "star-tv",
+    "name": "Star TV",
+    "originalName": "Star TV",
+    "parsaName": "Star-TV",
+    "category": "ترکیه",
+    "sourcePage": "https://www.parsatv.com/name%3DStar-TV",
+    "type": "iframe"
+  },
+  {
+    "id": "kanal-7",
+    "name": "Kanal 7",
+    "originalName": "Kanal 7",
+    "parsaName": "Kanal-7",
+    "category": "ترکیه",
+    "sourcePage": "https://www.parsatv.com/name%3DKanal-7",
+    "type": "iframe"
+  },
+  {
+    "id": "kanal-d",
+    "name": "Kanal D",
+    "originalName": "Kanal D",
+    "parsaName": "Kanal-D",
+    "category": "ترکیه",
+    "sourcePage": "https://www.parsatv.com/name%3DKanal-D",
+    "type": "iframe"
+  },
+  {
+    "id": "halk-tv",
+    "name": "Halk TV",
+    "originalName": "Halk TV",
+    "parsaName": "Halk-TV",
+    "category": "ترکیه",
+    "sourcePage": "https://www.parsatv.com/name%3DHalk-TV",
+    "type": "iframe"
+  },
+  {
+    "id": "a-haber",
+    "name": "A Haber",
+    "originalName": "A Haber",
+    "parsaName": "A-Haber",
+    "category": "ترکیه",
+    "sourcePage": "https://www.parsatv.com/name%3DA-Haber",
+    "type": "iframe"
+  },
+  {
+    "id": "a-spor",
+    "name": "A Spor",
+    "originalName": "A Spor",
+    "parsaName": "A-Spor",
+    "category": "ترکیه",
+    "sourcePage": "https://www.parsatv.com/name%3DA-Spor",
+    "type": "iframe"
+  },
+  {
+    "id": "bloomberg-ht",
+    "name": "Bloomberg HT",
+    "originalName": "Bloomberg HT",
+    "parsaName": "Bloomberg-HT",
+    "category": "ترکیه",
+    "sourcePage": "https://www.parsatv.com/name%3DBloomberg-HT",
+    "type": "iframe"
+  },
+  {
+    "id": "power-turk",
+    "name": "Power Turk",
+    "originalName": "Power Turk",
+    "parsaName": "Power-Turk",
+    "category": "ترکیه",
+    "sourcePage": "https://www.parsatv.com/name%3DPower-Turk",
+    "type": "iframe"
+  },
+  {
+    "id": "power-tv",
+    "name": "Power TV",
+    "originalName": "Power TV",
+    "parsaName": "Power-TV",
+    "category": "ترکیه",
+    "sourcePage": "https://www.parsatv.com/name%3DPower-TV",
+    "type": "iframe"
+  },
+  {
+    "id": "ntv-izle",
+    "name": "NTV Izle",
+    "originalName": "NTV Izle",
+    "parsaName": "NTV-Izle",
+    "category": "ترکیه",
+    "sourcePage": "https://www.parsatv.com/name%3DNTV-Izle",
+    "type": "iframe"
+  },
+  {
+    "id": "haberturk-tv",
+    "name": "Haberturk TV",
+    "originalName": "Haberturk TV",
+    "parsaName": "Haberturk-TV",
+    "category": "ترکیه",
+    "sourcePage": "https://www.parsatv.com/name%3DHaberturk-TV",
+    "type": "iframe"
+  },
+  {
+    "id": "tv100",
+    "name": "TV100",
+    "originalName": "TV100",
+    "parsaName": "TV100",
+    "category": "ترکیه",
+    "sourcePage": "https://www.parsatv.com/name%3DTV100",
+    "type": "iframe"
+  },
+  {
+    "id": "tgrt-haber",
+    "name": "TGRT Haber",
+    "originalName": "TGRT Haber",
+    "parsaName": "TGRT-Haber",
+    "category": "ترکیه",
+    "sourcePage": "https://www.parsatv.com/name%3DTGRT-Haber",
+    "type": "iframe"
+  },
+  {
+    "id": "beyaz-tv",
+    "name": "Beyaz TV",
+    "originalName": "Beyaz TV",
+    "parsaName": "Beyaz-TV",
+    "category": "ترکیه",
+    "sourcePage": "https://www.parsatv.com/name%3DBeyaz-TV",
+    "type": "iframe"
+  },
+  {
+    "id": "1tv-armenia",
+    "name": "1TV Armenia",
+    "originalName": "1TV Armenia",
+    "parsaName": "1TV-Armenia",
+    "category": "ارمنستان",
+    "sourcePage": "https://www.parsatv.com/name%3D1TV-Armenia",
+    "type": "iframe"
+  },
+  {
+    "id": "1tv-news",
+    "name": "1TV News",
+    "originalName": "1TV News",
+    "parsaName": "1TV-News",
+    "category": "ارمنستان",
+    "sourcePage": "https://www.parsatv.com/name%3D1TV-News",
+    "type": "iframe"
+  },
+  {
+    "id": "1tv-america",
+    "name": "1TV America",
+    "originalName": "1TV America",
+    "parsaName": "1TV-America",
+    "category": "ارمنستان",
+    "sourcePage": "https://www.parsatv.com/name%3D1TV-America",
+    "type": "iframe"
+  },
+  {
+    "id": "amga-tv",
+    "name": "AMGA TV",
+    "originalName": "AMGA TV",
+    "parsaName": "AMGA-TV",
+    "category": "ارمنستان",
+    "sourcePage": "https://www.parsatv.com/name%3DAMGA-TV",
+    "type": "iframe"
+  },
+  {
+    "id": "song-tv",
+    "name": "Song TV",
+    "originalName": "Song TV",
+    "parsaName": "Song-TV",
+    "category": "ارمنستان",
+    "sourcePage": "https://www.parsatv.com/name%3DSong-TV",
+    "type": "iframe"
+  },
+  {
+    "id": "usarmenia-tv",
+    "name": "USArmenia TV",
+    "originalName": "USArmenia TV",
+    "parsaName": "USArmenia-TV",
+    "category": "ارمنستان",
+    "sourcePage": "https://www.parsatv.com/name%3DUSArmenia-TV",
+    "type": "iframe"
+  },
+  {
+    "id": "tbn-armenia",
+    "name": "TBN Armenia",
+    "originalName": "TBN Armenia",
+    "parsaName": "TBN-Armenia",
+    "category": "ارمنستان",
+    "sourcePage": "https://www.parsatv.com/name%3DTBN-Armenia",
+    "type": "iframe"
+  },
+  {
+    "id": "nor-hayastan",
+    "name": "Nor Hayastan",
+    "originalName": "Nor Hayastan",
+    "parsaName": "Nor-Hayastan",
+    "category": "ارمنستان",
+    "sourcePage": "https://www.parsatv.com/name%3DNor-Hayastan",
+    "type": "iframe"
+  },
+  {
+    "id": "aabc-tv",
+    "name": "AABC TV",
+    "originalName": "AABC TV",
+    "parsaName": "AABC-TV",
+    "category": "ارمنستان",
+    "sourcePage": "https://www.parsatv.com/name%3DAABC-TV",
+    "type": "iframe"
+  },
+  {
+    "id": "artn-shant-tv",
+    "name": "ARTN Shant TV",
+    "originalName": "ARTN Shant TV",
+    "parsaName": "ARTN-Shant-TV",
+    "category": "ارمنستان",
+    "sourcePage": "https://www.parsatv.com/name%3DARTN-Shant-TV",
+    "type": "iframe"
+  },
+  {
+    "id": "nasa-tv",
+    "name": "NASA TV",
+    "originalName": "NASA TV",
+    "parsaName": "NASA-TV",
+    "category": "مستند",
+    "sourcePage": "https://www.parsatv.com/name%3DNASA-TV",
+    "type": "iframe"
+  },
+  {
+    "id": "travelxp",
+    "name": "Travelxp",
+    "originalName": "Travelxp",
+    "parsaName": "Travelxp",
+    "category": "مستند",
+    "sourcePage": "https://www.parsatv.com/name%3DTravelxp",
+    "type": "iframe"
+  },
+  {
+    "id": "go2travel-tv",
+    "name": "Go2Travel TV",
+    "originalName": "Go2Travel TV",
+    "parsaName": "Go2Travel-TV",
+    "category": "مستند",
+    "sourcePage": "https://www.parsatv.com/name%3DGo2Travel-TV",
+    "type": "iframe"
+  },
+  {
+    "id": "gotraveler",
+    "name": "GoTraveler",
+    "originalName": "GoTraveler",
+    "parsaName": "GoTraveler",
+    "category": "مستند",
+    "sourcePage": "https://www.parsatv.com/name%3DGoTraveler",
+    "type": "iframe"
+  },
+  {
+    "id": "hd-travel-tv",
+    "name": "HD Travel TV",
+    "originalName": "HD Travel TV",
+    "parsaName": "HD-Travel-TV",
+    "category": "مستند",
+    "sourcePage": "https://www.parsatv.com/name%3DHD-Travel-TV",
+    "type": "iframe"
+  },
+  {
+    "id": "law-crime",
+    "name": "Law & Crime",
+    "originalName": "Law & Crime",
+    "parsaName": "Law-&-Crime",
+    "category": "مستند",
+    "sourcePage": "https://www.parsatv.com/name%3DLaw-%26-Crime",
+    "type": "iframe"
+  },
+  {
+    "id": "nat-geo",
+    "name": "Nat Geo",
+    "originalName": "Nat Geo",
+    "parsaName": "Nat-Geo",
+    "category": "مستند",
+    "sourcePage": "https://www.parsatv.com/name%3DNat-Geo",
+    "type": "iframe"
+  },
+  {
+    "id": "nat-geo-wild",
+    "name": "Nat Geo Wild",
+    "originalName": "Nat Geo Wild",
+    "parsaName": "Nat-Geo-Wild",
+    "category": "مستند",
+    "sourcePage": "https://www.parsatv.com/name%3DNat-Geo-Wild",
+    "type": "iframe"
+  },
+  {
+    "id": "bbc-earth",
+    "name": "BBC Earth",
+    "originalName": "BBC Earth",
+    "parsaName": "BBC-Earth",
+    "category": "مستند",
+    "sourcePage": "https://www.parsatv.com/name%3DBBC-Earth",
+    "type": "iframe"
+  },
+  {
+    "id": "cgtn-doc",
+    "name": "CGTN Doc",
+    "originalName": "CGTN Doc",
+    "parsaName": "CGTN-Doc",
+    "category": "مستند",
+    "sourcePage": "https://www.parsatv.com/name%3DCGTN-Doc",
+    "type": "iframe"
+  },
+  {
+    "id": "true-history",
+    "name": "True History",
+    "originalName": "True History",
+    "parsaName": "True-History",
+    "category": "مستند",
+    "sourcePage": "https://www.parsatv.com/name%3DTrue-History",
+    "type": "iframe"
+  },
+  {
+    "id": "rt-documentary",
+    "name": "RT Documentary",
+    "originalName": "RT Documentary",
+    "parsaName": "RT-Documentary",
+    "category": "مستند",
+    "sourcePage": "https://www.parsatv.com/name%3DRT-Documentary",
+    "type": "iframe"
+  },
+  {
+    "id": "military-history",
+    "name": "Military History",
+    "originalName": "Military History",
+    "parsaName": "Military-History",
+    "category": "مستند",
+    "sourcePage": "https://www.parsatv.com/name%3DMilitary-History",
+    "type": "iframe"
+  },
+  {
+    "id": "radio-hamrah",
+    "name": "رادیو همراه",
+    "originalName": "Radio Hamrah",
+    "parsaName": "Radio-Hamrah",
+    "category": "رادیو",
+    "sourcePage": "https://www.parsatv.com/name%3DRadio-Hamrah",
+    "type": "iframe"
+  },
+  {
+    "id": "radio-yar",
+    "name": "رادیو یار",
+    "originalName": "Radio Yar",
+    "parsaName": "Radio-Yar",
+    "category": "رادیو",
+    "sourcePage": "https://www.parsatv.com/name%3DRadio-Yar",
+    "type": "iframe"
+  },
+  {
+    "id": "radio-ran",
+    "name": "رادیو رن",
+    "originalName": "Radio Ran",
+    "parsaName": "Radio-Ran",
+    "category": "رادیو",
+    "sourcePage": "https://www.parsatv.com/name%3DRadio-Ran",
+    "type": "iframe"
+  },
+  {
+    "id": "radio-setareh",
+    "name": "رادیو ستاره",
+    "originalName": "Radio Setareh",
+    "parsaName": "Radio-Setareh",
+    "category": "رادیو",
+    "sourcePage": "https://www.parsatv.com/name%3DRadio-Setareh",
+    "type": "iframe"
+  },
+  {
+    "id": "radio-shadi",
+    "name": "رادیو شادی",
+    "originalName": "Radio Shadi",
+    "parsaName": "Radio-Shadi",
+    "category": "رادیو",
+    "sourcePage": "https://www.parsatv.com/name%3DRadio-Shadi",
+    "type": "iframe"
+  },
+  {
+    "id": "radio-navahang",
+    "name": "رادیو نواهنگ",
+    "originalName": "Radio Navahang",
+    "parsaName": "Radio-Navahang",
+    "category": "رادیو",
+    "sourcePage": "https://www.parsatv.com/name%3DRadio-Navahang",
+    "type": "iframe"
+  },
+  {
+    "id": "radio-farda-rd",
+    "name": "رادیو فردا",
+    "originalName": "Radio Farda Rd",
+    "parsaName": "Radio-Farda-Rd",
+    "category": "رادیو",
+    "sourcePage": "https://www.parsatv.com/name%3DRadio-Farda-Rd",
+    "type": "iframe"
+  },
+  {
+    "id": "iran-intl-radio",
+    "name": "رادیو ایران اینترنشنال",
+    "originalName": "Iran Intl Radio",
+    "parsaName": "Iran-Intl-Radio",
+    "category": "رادیو",
+    "sourcePage": "https://www.parsatv.com/name%3DIran-Intl-Radio",
+    "type": "iframe"
+  },
+  {
+    "id": "radio-parsa",
+    "name": "رادیو پارسا",
+    "originalName": "Radio Parsa",
+    "parsaName": "Radio-Parsa",
+    "category": "رادیو",
+    "sourcePage": "https://www.parsatv.com/name%3DRadio-Parsa",
+    "type": "iframe"
+  },
+  {
+    "id": "radio-mihan",
+    "name": "رادیو میهن",
+    "originalName": "Radio Mihan",
+    "parsaName": "Radio-Mihan",
+    "category": "رادیو",
+    "sourcePage": "https://www.parsatv.com/name%3DRadio-Mihan",
+    "type": "iframe"
+  },
+  {
+    "id": "radio-novin",
+    "name": "رادیو نوین",
+    "originalName": "Radio Novin",
+    "parsaName": "Radio-Novin",
+    "category": "رادیو",
+    "sourcePage": "https://www.parsatv.com/name%3DRadio-Novin",
+    "type": "iframe"
+  },
+  {
+    "id": "radio-ava-ir",
+    "name": "رادیو آوا",
+    "originalName": "Radio Ava IR",
+    "parsaName": "Radio-Ava-IR",
+    "category": "رادیو",
+    "sourcePage": "https://www.parsatv.com/name%3DRadio-Ava-IR",
+    "type": "iframe"
+  },
+  {
+    "id": "zdf",
+    "name": "ZDF",
+    "originalName": "ZDF",
+    "parsaName": "ZDF",
+    "category": "بین‌المللی",
+    "sourcePage": "https://www.parsatv.com/name%3DZDF",
+    "type": "iframe"
+  },
+  {
+    "id": "rtl",
+    "name": "RTL",
+    "originalName": "RTL",
+    "parsaName": "RTL",
+    "category": "بین‌المللی",
+    "sourcePage": "https://www.parsatv.com/name%3DRTL",
+    "type": "iframe"
+  },
+  {
+    "id": "rtl-2",
+    "name": "RTL 2",
+    "originalName": "RTL 2",
+    "parsaName": "RTL-2",
+    "category": "بین‌المللی",
+    "sourcePage": "https://www.parsatv.com/name%3DRTL-2",
+    "type": "iframe"
+  },
+  {
+    "id": "prosieben",
+    "name": "ProSieben",
+    "originalName": "ProSieben",
+    "parsaName": "ProSieben",
+    "category": "بین‌المللی",
+    "sourcePage": "https://www.parsatv.com/name%3DProSieben",
+    "type": "iframe"
+  },
+  {
+    "id": "sat1",
+    "name": "Sat1",
+    "originalName": "Sat1",
+    "parsaName": "Sat1",
+    "category": "بین‌المللی",
+    "sourcePage": "https://www.parsatv.com/name%3DSat1",
+    "type": "iframe"
+  },
+  {
+    "id": "ndr",
+    "name": "NDR",
+    "originalName": "NDR",
+    "parsaName": "NDR",
+    "category": "بین‌المللی",
+    "sourcePage": "https://www.parsatv.com/name%3DNDR",
+    "type": "iframe"
+  },
+  {
+    "id": "das-erste",
+    "name": "Das Erste",
+    "originalName": "Das Erste",
+    "parsaName": "Das-Erste",
+    "category": "بین‌المللی",
+    "sourcePage": "https://www.parsatv.com/name%3DDas-Erste",
+    "type": "iframe"
+  },
+  {
+    "id": "wdr",
+    "name": "WDR",
+    "originalName": "WDR",
+    "parsaName": "WDR",
+    "category": "بین‌المللی",
+    "sourcePage": "https://www.parsatv.com/name%3DWDR",
+    "type": "iframe"
+  },
+  {
+    "id": "dmax",
+    "name": "DMAX",
+    "originalName": "DMAX",
+    "parsaName": "DMAX",
+    "category": "بین‌المللی",
+    "sourcePage": "https://www.parsatv.com/name%3DDMAX",
+    "type": "iframe"
+  },
+  {
+    "id": "arirang-tv",
+    "name": "Arirang TV",
+    "originalName": "Arirang TV",
+    "parsaName": "Arirang-TV",
+    "category": "بین‌المللی",
+    "sourcePage": "https://www.parsatv.com/name%3DArirang-TV",
+    "type": "iframe"
+  },
+  {
+    "id": "cgtn-spanish",
+    "name": "CGTN Spanish",
+    "originalName": "CGTN Spanish",
+    "parsaName": "CGTN-Spanish",
+    "category": "بین‌المللی",
+    "sourcePage": "https://www.parsatv.com/name%3DCGTN-Spanish",
+    "type": "iframe"
+  },
+  {
+    "id": "dw-spanish",
+    "name": "DW Spanish",
+    "originalName": "DW Spanish",
+    "parsaName": "DW-Spanish",
+    "category": "بین‌المللی",
+    "sourcePage": "https://www.parsatv.com/name%3DDW-Spanish",
+    "type": "iframe"
+  },
+  {
+    "id": "france-24-es",
+    "name": "France 24 ES",
+    "originalName": "France 24 ES",
+    "parsaName": "France-24-ES",
+    "category": "بین‌المللی",
+    "sourcePage": "https://www.parsatv.com/name%3DFrance-24-ES",
+    "type": "iframe"
+  },
+  {
+    "id": "telemundo",
+    "name": "Telemundo",
+    "originalName": "Telemundo",
+    "parsaName": "Telemundo",
+    "category": "بین‌المللی",
+    "sourcePage": "https://www.parsatv.com/name%3DTelemundo",
+    "type": "iframe"
+  },
+  {
+    "id": "tv-azteca",
+    "name": "TV Azteca",
+    "originalName": "TV Azteca",
+    "parsaName": "TV-Azteca",
+    "category": "بین‌المللی",
+    "sourcePage": "https://www.parsatv.com/name%3DTV-Azteca",
+    "type": "iframe"
+  },
+  {
+    "id": "univision-tv",
+    "name": "Univision TV",
+    "originalName": "Univision TV",
+    "parsaName": "Univision-TV",
+    "category": "بین‌المللی",
+    "sourcePage": "https://www.parsatv.com/name%3DUnivision-TV",
+    "type": "iframe"
+  },
+  {
+    "id": "todo-noticias",
+    "name": "Todo Noticias",
+    "originalName": "Todo Noticias",
+    "parsaName": "Todo-Noticias",
+    "category": "بین‌المللی",
+    "sourcePage": "https://www.parsatv.com/name%3DTodo-Noticias",
+    "type": "iframe"
+  },
+  {
+    "id": "rt-spanish",
+    "name": "RT Spanish",
+    "originalName": "RT Spanish",
+    "parsaName": "RT-Spanish",
+    "category": "بین‌المللی",
+    "sourcePage": "https://www.parsatv.com/name%3DRT-Spanish",
+    "type": "iframe"
+  },
+  {
+    "id": "india-tv-news",
+    "name": "India TV News",
+    "originalName": "India TV News",
+    "parsaName": "India-TV-News",
+    "category": "بین‌المللی",
+    "sourcePage": "https://www.parsatv.com/name%3DIndia-TV-News",
+    "type": "iframe"
+  },
+  {
+    "id": "dawn-news",
+    "name": "Dawn News",
+    "originalName": "Dawn News",
+    "parsaName": "Dawn-News",
+    "category": "بین‌المللی",
+    "sourcePage": "https://www.parsatv.com/name%3DDawn-News",
+    "type": "iframe"
+  },
+  {
+    "id": "9xm",
+    "name": "9XM",
+    "originalName": "9XM",
+    "parsaName": "9XM",
+    "category": "بین‌المللی",
+    "sourcePage": "https://www.parsatv.com/name%3D9XM",
+    "type": "iframe"
+  },
+  {
+    "id": "bollywood-hd",
+    "name": "Bollywood HD",
+    "originalName": "Bollywood HD",
+    "parsaName": "Bollywood-HD",
+    "category": "بین‌المللی",
+    "sourcePage": "https://www.parsatv.com/name%3DBollywood-HD",
+    "type": "iframe"
+  },
+  {
+    "id": "kan-11",
+    "name": "Kan 11",
+    "originalName": "Kan 11",
+    "parsaName": "Kan-11",
+    "category": "بین‌المللی",
+    "sourcePage": "https://www.parsatv.com/name%3DKan-11",
+    "type": "iframe"
+  },
+  {
+    "id": "keshet-12",
+    "name": "Keshet 12",
+    "originalName": "Keshet 12",
+    "parsaName": "Keshet-12",
+    "category": "بین‌المللی",
+    "sourcePage": "https://www.parsatv.com/name%3DKeshet-12",
+    "type": "iframe"
+  },
+  {
+    "id": "reshet-13",
+    "name": "Reshet 13",
+    "originalName": "Reshet 13",
+    "parsaName": "Reshet-13",
+    "category": "بین‌المللی",
+    "sourcePage": "https://www.parsatv.com/name%3DReshet-13",
+    "type": "iframe"
+  },
+  {
+    "id": "makan-33",
+    "name": "Makan 33",
+    "originalName": "Makan 33",
+    "parsaName": "Makan-33",
+    "category": "بین‌المللی",
+    "sourcePage": "https://www.parsatv.com/name%3DMakan-33",
+    "type": "iframe"
+  },
+  {
+    "id": "jbs-tv",
+    "name": "JBS TV",
+    "originalName": "JBS TV",
+    "parsaName": "JBS-TV",
+    "category": "بین‌المللی",
+    "sourcePage": "https://www.parsatv.com/name%3DJBS-TV",
+    "type": "iframe"
+  },
+  {
+    "id": "channel-24",
+    "name": "Channel 24",
+    "originalName": "Channel 24",
+    "parsaName": "Channel-24",
+    "category": "بین‌المللی",
+    "sourcePage": "https://www.parsatv.com/name%3DChannel-24",
+    "type": "iframe"
+  },
+  {
+    "id": "ua-tv",
+    "name": "UA TV",
+    "originalName": "UA TV",
+    "parsaName": "UA-TV",
+    "category": "بین‌المللی",
+    "sourcePage": "https://www.parsatv.com/name%3DUA-TV",
+    "type": "iframe"
+  }
+]

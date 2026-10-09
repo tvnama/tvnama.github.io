@@ -109,7 +109,7 @@ def audit(ch):
 
 def main():
  channels=json.loads(CATALOG.read_text())
- if not isinstance(channels,list):raise ValueError('channels.json must contain an array')
+ if not isinstance(channels,list) or not channels:raise ValueError('channels.json has no channels; generate fallback snapshot first')
  results={};audit_results={}
  with concurrent.futures.ThreadPoolExecutor(max_workers=WORKERS) as pool:
   futures=[pool.submit(audit,c) for c in channels if c.get('parsaName')]
