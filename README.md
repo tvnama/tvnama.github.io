@@ -81,3 +81,10 @@ The supplied Namayesh sample stream is **commented out** because it has not been
 `python scripts/sync_streams.py` (با دسترسی شبکه). `SITE_ORIGIN` باید در صورت
 تغییر دامنه تنظیم شود. اگر صفحه/استریم اجازه دسترسی ندهد، آن شبکه در روش
 قبلی iframe باقی می‌ماند. اجرای آفلاین فایل JSON خالی تولید می‌کند.
+
+
+## Audit of each source page / گزارش تک‌تک شبکه‌ها
+
+GitHub Actions calls `scripts/sync_streams.py` and writes `public/stream-audit.json` (published at `/stream-audit.json`). It checks each public page, scans direct HLS URLs and at most a few same-site iframe documents, and tests the candidate playlist for HTTP 200, `#EXTM3U`, and browser-origin CORS. A channel only receives a direct-player URL if these checks pass. `Tamasha` has a **candidate** from public IPTV listings (`ncdn.telewebion.ir/hdtest/...`), *not* a verified ParsaTV extraction. The Namayesh candidate comes from the earlier user-provided HTML. Neither is forced into playback until the runtime check passes. This does not confirm segment requests, licensing, or browser playback.
+
+**Important:** The project still uses ParsaTV embeds when no direct URL passes these checks. It is NOT fully independent, and removing all ParsaTV references at this stage would break unverified channels. This package does not claim a finished all-channel migration. For accurate CORS checks, set the GitHub Actions environment `SITE_ORIGIN` to the site's actual origin (including scheme).
