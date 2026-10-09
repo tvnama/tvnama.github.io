@@ -19,22 +19,27 @@ function readFavs(){try {return JSON.parse(localStorage.getItem('mahnama.favorit
 function StreamVideo({url, channel}) {
  const videoRef=useRef(null);
  const [error,setError]=useState('');
+ const [sourceIndex,setSourceIndex]=useState(0);
+ const candidateUrls=channel.streamUrls?.length?channel.streamUrls:[url];
+ const activeUrl=candidateUrls[sourceIndex]||url;
+ useEffect(()=>{setSourceIndex(0);setError('')},[channel.id]);
  useEffect(()=>{
   const video=videoRef.current;
-  if(!video||!url)return;
+  if(!video||!activeUrl)return;
   let hls;
+  const fail=()=>{if(sourceIndex+1<candidateUrls.length){setSourceIndex(i=>i+1)}else setError('هیچ‌کدام از منابع مستقیم پاسخ ندادند؛ ممکن است منبع قطع باشد یا دسترسی مرورگر محدود شده باشد.')};
   setError('');
-  if(/\.m3u8(?:[?#]|$)/i.test(url) && Hls.isSupported()){
+  if(/\.m3u8(?:[?#]|$)/i.test(activeUrl) && Hls.isSupported()){
    hls=new Hls({enableWorker:true});
-   hls.loadSource(url);
+   hls.loadSource(activeUrl);
    hls.attachMedia(video);
-   hls.on(Hls.Events.ERROR,(_,data)=>{if(data.fatal)setError('پخش مستقیم ناموفق بود؛ ممکن است منبع غیرفعال یا محدود به دامنه باشد.')});
-  }else if(video.canPlayType('application/vnd.apple.mpegurl') || !/\.m3u8(?:[?#]|$)/i.test(url)){
-   video.src=url;
+   hls.on(Hls.Events.ERROR,(_,data)=>{if(data.fatal)fail()});
+  }else if(video.canPlayType('application/vnd.apple.mpegurl') || !/\.m3u8(?:[?#]|$)/i.test(activeUrl)){
+   video.src=activeUrl;
   }else setError('مرورگر شما از این نوع پخش پشتیبانی نمی‌کند.');
   return ()=>{if(hls)hls.destroy();video.removeAttribute('src');video.load()};
- },[url]);
- return <div className="direct-player"><video key={channel.id} ref={videoRef} controls autoPlay playsInline style={{width:'100%',height:'100%',background:'#080c15'}} onError={()=>setError('پخش مستقیم ناموفق بود؛ دسترسی به منبع را بررسی کنید.')}/>{error&&<div className="stream-error"><span>{error}</span>{channel.sourcePage&&<a href={channel.sourcePage} target="_blank" rel="noopener noreferrer">صفحه اصلی شبکه ↗</a>}</div>}</div>;
+ },[activeUrl,sourceIndex,channel.id]);
+ return <div className="direct-player"><video key={channel.id} ref={videoRef} controls autoPlay playsInline style={{width:'100%',height:'100%',background:'#080c15'}} onError={()=>{if(sourceIndex+1<candidateUrls.length)setSourceIndex(i=>i+1);else setError('پخش مستقیم ناموفق بود؛ دسترسی به منبع را بررسی کنید.')}}/>{error&&<div className="stream-error"><span>{error}</span>{channel.sourcePage&&<a href={channel.sourcePage} target="_blank" rel="noopener noreferrer">صفحه اصلی شبکه ↗</a>}</div>}</div>;
 }
 function Player({channel}) {
  const [reload,setReload]=useState(0);

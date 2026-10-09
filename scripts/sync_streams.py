@@ -33,14 +33,15 @@ PATTERNS = [
 ]
 
 def normalize(raw, base):
- raw=html.unescape(raw).replace('\\/','/').replace('\\u0026','&').strip()
+ raw=html.unescape(raw).replace('\\/','/').replace('\\u0026','&').strip().rstrip(');,')
  for _ in range(2):
   if '%3a%2f%2f' in raw.lower():raw=unquote(raw)
  p=urlparse(urljoin(base,raw))
  if p.scheme not in ('http','https'):return None
  if 'url=' in p.query and ('proxy' in p.netloc or 'workers.dev' in p.netloc):
   inner=parse_qs(p.query).get('url',[''])[0]
-  if inner:return normalize(inner,base)
+  if inner and re.search(r'\.m3u8(?:$|[?#])',inner,re.I):
+   return p.geturl()  # Keep the URL actually passed to the player.
  if not re.search(r'\.m3u8(?:$|[?#])',p.geturl(),re.I):return None
  return p.geturl()
 
@@ -54,6 +55,9 @@ def extract(page, content):
   else:urls.append(address)
  for pattern in PATTERNS:
   urls.extend(pattern.findall(content))
+ # Catch proxy stream strings and JSON escaped URLs embedded in scripts.
+ urls.extend(re.findall(r'https?://[^\s\"\'<>]+?workers\.dev/\?url=[^\s\"\'<>]+',content,re.I))
+ urls.extend(re.findall(r'https?://[^\s\"\'<>]+?\.m3u8(?:\?[^\s\"\'<>]*)?',content,re.I))
  valid=[]
  for raw in urls:
   u=normalize(raw,page)
@@ -96,7 +100,7 @@ def audit(ch):
      except requests.RequestException:pass
    else:entry['pageError']='HTTP '+str(r.status_code)
   except requests.RequestException as e:entry['pageError']=type(e).__name__
- discovered+=CANDIDATES.get(original,[])
+ # No guessed/stale directory candidates: require discovery in the live reference page.
  for url in dict.fromkeys(discovered):
   ok,reason=verify(url)
   entry['candidates'].append({'url':url,'status':reason,'usable':ok})
@@ -104,6 +108,7 @@ def audit(ch):
    entry['status']='manifest-checked'
    entry['streamUrl']=url
    entry['streamHost']=urlparse(url).hostname
+   entry['throughProxy']='workers.dev' in urlparse(url).netloc
    break
  return slug,entry
 
