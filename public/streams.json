@@ -183,17 +183,21 @@
     "sourceChannel": "Oxir TV"
   },
   "shabake1": {
-    "url": "https://live-aburayhan1113.telewebion.ir/ek/tv1/live/720p/index.m3u8",
+    "url": "https://corsply-v0s4.cfloveu.workers.dev/?url=https://live-aburayhan1113.telewebion.ir/ek/tv1/live/720p/index.m3u8",
     "kind": "hls",
-    "scanStatus": "observed",
-    "alternatives": [],
+    "scanStatus": "candidate_unverified",
+    "alternatives": [
+      "https://live-aburayhan1113.telewebion.ir/ek/tv1/live/720p/index.m3u8"
+    ],
     "sourceChannel": "Shabake 1"
   },
   "shabake2": {
-    "url": "https://live-aburayhan1110.telewebion.ir/ek/tv2/live/720p/index.m3u8",
+    "url": "https://corsply-v0s4.cfloveu.workers.dev/?url=https://live-aburayhan1110.telewebion.ir/ek/tv2/live/720p/index.m3u8",
     "kind": "hls",
-    "scanStatus": "observed",
-    "alternatives": [],
+    "scanStatus": "candidate_unverified",
+    "alternatives": [
+      "https://live-aburayhan1110.telewebion.ir/ek/tv2/live/720p/index.m3u8"
+    ],
     "sourceChannel": "Shabake 2"
   },
   "shabake3": {
@@ -204,31 +208,39 @@
     "sourceChannel": "Shabake 3"
   },
   "shabake4": {
-    "url": "https://live-aburayhan1102.telewebion.ir/ek/tv4/live/576p/index.m3u8",
+    "url": "https://corsply-v0s4.cfloveu.workers.dev/?url=https://live-aburayhan1102.telewebion.ir/ek/tv4/live/576p/index.m3u8",
     "kind": "hls",
-    "scanStatus": "observed",
-    "alternatives": [],
+    "scanStatus": "candidate_unverified",
+    "alternatives": [
+      "https://live-aburayhan1102.telewebion.ir/ek/tv4/live/576p/index.m3u8"
+    ],
     "sourceChannel": "Shabake 4"
   },
   "shabake5": {
-    "url": "https://live-aburayhan1107.telewebion.ir/ek/tehran/live/720p/index.m3u8",
+    "url": "https://corsply-v0s4.cfloveu.workers.dev/?url=https://live-aburayhan1107.telewebion.ir/ek/tehran/live/720p/index.m3u8",
     "kind": "hls",
-    "scanStatus": "observed",
-    "alternatives": [],
+    "scanStatus": "candidate_unverified",
+    "alternatives": [
+      "https://live-aburayhan1107.telewebion.ir/ek/tehran/live/720p/index.m3u8"
+    ],
     "sourceChannel": "Shabake 5"
   },
   "shabakekhabar": {
-    "url": "https://live-aburayhan1111.telewebion.ir/ek/irinn/live/720p/index.m3u8",
+    "url": "https://corsply-v0s4.cfloveu.workers.dev/?url=https://live-aburayhan1111.telewebion.ir/ek/irinn/live/720p/index.m3u8",
     "kind": "hls",
-    "scanStatus": "observed",
-    "alternatives": [],
+    "scanStatus": "candidate_unverified",
+    "alternatives": [
+      "https://live-aburayhan1111.telewebion.ir/ek/irinn/live/720p/index.m3u8"
+    ],
     "sourceChannel": "Shabake Khabar"
   },
   "shabakekhabar2": {
-    "url": "https://live-aburayhan1112.telewebion.ir/ek/irinn2/live/720p/index.m3u8",
+    "url": "https://corsply-v0s4.cfloveu.workers.dev/?url=https://live-aburayhan1112.telewebion.ir/ek/irinn2/live/720p/index.m3u8",
     "kind": "hls",
-    "scanStatus": "observed",
-    "alternatives": [],
+    "scanStatus": "candidate_unverified",
+    "alternatives": [
+      "https://live-aburayhan1112.telewebion.ir/ek/irinn2/live/720p/index.m3u8"
+    ],
     "sourceChannel": "Shabake Khabar 2"
   },
   "varzesh": {
@@ -239,17 +251,21 @@
     "sourceChannel": "Varzesh"
   },
   "pooya": {
-    "url": "https://live-aburayhan1106.telewebion.ir/ek/pooya/live/720p/index.m3u8",
+    "url": "https://corsply-v0s4.cfloveu.workers.dev/?url=https://live-aburayhan1106.telewebion.ir/ek/pooya/live/720p/index.m3u8",
     "kind": "hls",
-    "scanStatus": "observed",
-    "alternatives": [],
+    "scanStatus": "candidate_unverified",
+    "alternatives": [
+      "https://live-aburayhan1106.telewebion.ir/ek/pooya/live/720p/index.m3u8"
+    ],
     "sourceChannel": "Pooya"
   },
   "omid": {
-    "url": "https://live-aburayhan1102.telewebion.ir/ek/omid/live/720p/index.m3u8",
+    "url": "https://corsply-v0s4.cfloveu.workers.dev/?url=https://live-aburayhan1102.telewebion.ir/ek/omid/live/720p/index.m3u8",
     "kind": "hls",
-    "scanStatus": "observed",
-    "alternatives": [],
+    "scanStatus": "candidate_unverified",
+    "alternatives": [
+      "https://live-aburayhan1102.telewebion.ir/ek/omid/live/720p/index.m3u8"
+    ],
     "sourceChannel": "Omid"
   },
   "ifilmfarsi": {
@@ -288,17 +304,21 @@
     "sourceChannel": "Press TV"
   },
   "ofogh": {
-    "url": "https://live-aburayhan1101.telewebion.ir/ek/ofogh/live/720p/index.m3u8",
+    "url": "https://corsply-v0s4.cfloveu.workers.dev/?url=https://live-aburayhan1101.telewebion.ir/ek/ofogh/live/720p/index.m3u8",
     "kind": "hls",
-    "scanStatus": "observed",
-    "alternatives": [],
+    "scanStatus": "candidate_unverified",
+    "alternatives": [
+      "https://live-aburayhan1101.telewebion.ir/ek/ofogh/live/720p/index.m3u8"
+    ],
     "sourceChannel": "Ofogh"
   },
   "quran": {
-    "url": "https://live-aburayhan1112.telewebion.ir/ek/quran/live/720p/index.m3u8",
+    "url": "https://corsply-v0s4.cfloveu.workers.dev/?url=https://live-aburayhan1112.telewebion.ir/ek/quran/live/720p/index.m3u8",
     "kind": "hls",
-    "scanStatus": "observed",
-    "alternatives": [],
+    "scanStatus": "candidate_unverified",
+    "alternatives": [
+      "https://live-aburayhan1112.telewebion.ir/ek/quran/live/720p/index.m3u8"
+    ],
     "sourceChannel": "Quran"
   },
   "alalam": {
@@ -316,122 +336,156 @@
     "sourceChannel": "IRNA TV"
   },
   "abadan": {
-    "url": "https://live-aburayhan1101.telewebion.ir/ek/abadan/live/576p/index.m3u8",
+    "url": "https://corsply-v0s4.cfloveu.workers.dev/?url=https://live-aburayhan1101.telewebion.ir/ek/abadan/live/576p/index.m3u8",
     "kind": "hls",
-    "scanStatus": "observed",
-    "alternatives": [],
+    "scanStatus": "candidate_unverified",
+    "alternatives": [
+      "https://live-aburayhan1101.telewebion.ir/ek/abadan/live/576p/index.m3u8"
+    ],
     "sourceChannel": "Abadan"
   },
   "alborz": {
-    "url": "https://live-aburayhan1112.telewebion.ir/ek/alborz/live/720p/index.m3u8",
+    "url": "https://corsply-v0s4.cfloveu.workers.dev/?url=https://live-aburayhan1112.telewebion.ir/ek/alborz/live/720p/index.m3u8",
     "kind": "hls",
-    "scanStatus": "observed",
-    "alternatives": [],
+    "scanStatus": "candidate_unverified",
+    "alternatives": [
+      "https://live-aburayhan1112.telewebion.ir/ek/alborz/live/720p/index.m3u8"
+    ],
     "sourceChannel": "Alborz"
   },
   "birjand": {
-    "url": "https://live-aburayhan1113.telewebion.ir/ek/khavaran/live/720p/index.m3u8",
+    "url": "https://corsply-v0s4.cfloveu.workers.dev/?url=https://live-aburayhan1113.telewebion.ir/ek/khavaran/live/720p/index.m3u8",
     "kind": "hls",
-    "scanStatus": "observed",
-    "alternatives": [],
+    "scanStatus": "candidate_unverified",
+    "alternatives": [
+      "https://live-aburayhan1113.telewebion.ir/ek/khavaran/live/720p/index.m3u8"
+    ],
     "sourceChannel": "Birjand"
   },
   "bojnourd": {
-    "url": "https://live-aburayhan1104.telewebion.ir/ek/atrak/live/576p/index.m3u8",
+    "url": "https://corsply-v0s4.cfloveu.workers.dev/?url=https://live-aburayhan1104.telewebion.ir/ek/atrak/live/576p/index.m3u8",
     "kind": "hls",
-    "scanStatus": "observed",
-    "alternatives": [],
+    "scanStatus": "candidate_unverified",
+    "alternatives": [
+      "https://live-aburayhan1104.telewebion.ir/ek/atrak/live/576p/index.m3u8"
+    ],
     "sourceChannel": "Bojnourd"
   },
   "chaharmahal": {
-    "url": "https://live-aburayhan1106.telewebion.ir/ek/jahanbin/live/720p/index.m3u8",
+    "url": "https://corsply-v0s4.cfloveu.workers.dev/?url=https://live-aburayhan1106.telewebion.ir/ek/jahanbin/live/720p/index.m3u8",
     "kind": "hls",
-    "scanStatus": "observed",
-    "alternatives": [],
+    "scanStatus": "candidate_unverified",
+    "alternatives": [
+      "https://live-aburayhan1106.telewebion.ir/ek/jahanbin/live/720p/index.m3u8"
+    ],
     "sourceChannel": "Chahar Mahal"
   },
   "gilan": {
-    "url": "https://live-aburayhan1106.telewebion.ir/ek/baran/live/576p/index.m3u8",
+    "url": "https://corsply-v0s4.cfloveu.workers.dev/?url=https://live-aburayhan1106.telewebion.ir/ek/baran/live/576p/index.m3u8",
     "kind": "hls",
-    "scanStatus": "observed",
-    "alternatives": [],
+    "scanStatus": "candidate_unverified",
+    "alternatives": [
+      "https://live-aburayhan1106.telewebion.ir/ek/baran/live/576p/index.m3u8"
+    ],
     "sourceChannel": "Gilan"
   },
   "ilam": {
-    "url": "https://live-aburayhan1109.telewebion.ir/ek/ilam/live/576p/index.m3u8",
+    "url": "https://corsply-v0s4.cfloveu.workers.dev/?url=https://live-aburayhan1109.telewebion.ir/ek/ilam/live/576p/index.m3u8",
     "kind": "hls",
-    "scanStatus": "observed",
-    "alternatives": [],
+    "scanStatus": "candidate_unverified",
+    "alternatives": [
+      "https://live-aburayhan1109.telewebion.ir/ek/ilam/live/576p/index.m3u8"
+    ],
     "sourceChannel": "Ilam"
   },
   "kerman": {
-    "url": "https://live-aburayhan1106.telewebion.ir/ek/kerman/live/720p/index.m3u8",
+    "url": "https://corsply-v0s4.cfloveu.workers.dev/?url=https://live-aburayhan1106.telewebion.ir/ek/kerman/live/720p/index.m3u8",
     "kind": "hls",
-    "scanStatus": "observed",
-    "alternatives": [],
+    "scanStatus": "candidate_unverified",
+    "alternatives": [
+      "https://live-aburayhan1106.telewebion.ir/ek/kerman/live/720p/index.m3u8"
+    ],
     "sourceChannel": "Kerman"
   },
   "lorestan": {
-    "url": "https://live-aburayhan1103.telewebion.ir/ek/aflak/live/576p/index.m3u8",
+    "url": "https://corsply-v0s4.cfloveu.workers.dev/?url=https://live-aburayhan1103.telewebion.ir/ek/aflak/live/576p/index.m3u8",
     "kind": "hls",
-    "scanStatus": "observed",
-    "alternatives": [],
+    "scanStatus": "candidate_unverified",
+    "alternatives": [
+      "https://live-aburayhan1103.telewebion.ir/ek/aflak/live/576p/index.m3u8"
+    ],
     "sourceChannel": "Lorestan"
   },
   "mahabad": {
-    "url": "https://live-aburayhan1112.telewebion.ir/ek/mahabad/live/720p/index.m3u8",
+    "url": "https://corsply-v0s4.cfloveu.workers.dev/?url=https://live-aburayhan1112.telewebion.ir/ek/mahabad/live/720p/index.m3u8",
     "kind": "hls",
-    "scanStatus": "observed",
-    "alternatives": [],
+    "scanStatus": "candidate_unverified",
+    "alternatives": [
+      "https://live-aburayhan1112.telewebion.ir/ek/mahabad/live/720p/index.m3u8"
+    ],
     "sourceChannel": "Mahabad"
   },
   "markazi": {
-    "url": "https://live-aburayhan1111.telewebion.ir/ek/aftab/live/720p/index.m3u8",
+    "url": "https://corsply-v0s4.cfloveu.workers.dev/?url=https://live-aburayhan1111.telewebion.ir/ek/aftab/live/720p/index.m3u8",
     "kind": "hls",
-    "scanStatus": "observed",
-    "alternatives": [],
+    "scanStatus": "candidate_unverified",
+    "alternatives": [
+      "https://live-aburayhan1111.telewebion.ir/ek/aftab/live/720p/index.m3u8"
+    ],
     "sourceChannel": "Markazi"
   },
   "qazvin": {
-    "url": "https://live-aburayhan1107.telewebion.ir/ek/qazvin/live/720p/index.m3u8",
+    "url": "https://corsply-v0s4.cfloveu.workers.dev/?url=https://live-aburayhan1107.telewebion.ir/ek/qazvin/live/720p/index.m3u8",
     "kind": "hls",
-    "scanStatus": "observed",
-    "alternatives": [],
+    "scanStatus": "candidate_unverified",
+    "alternatives": [
+      "https://live-aburayhan1107.telewebion.ir/ek/qazvin/live/720p/index.m3u8"
+    ],
     "sourceChannel": "Qazvin"
   },
   "qom": {
-    "url": "https://live-aburayhan1104.telewebion.ir/ek/noor/live/720p/index.m3u8",
+    "url": "https://corsply-v0s4.cfloveu.workers.dev/?url=https://live-aburayhan1104.telewebion.ir/ek/noor/live/720p/index.m3u8",
     "kind": "hls",
-    "scanStatus": "observed",
-    "alternatives": [],
+    "scanStatus": "candidate_unverified",
+    "alternatives": [
+      "https://live-aburayhan1104.telewebion.ir/ek/noor/live/720p/index.m3u8"
+    ],
     "sourceChannel": "Qom"
   },
   "sistan": {
-    "url": "https://live-aburayhan1111.telewebion.ir/ek/hamoon/live/720p/index.m3u8",
+    "url": "https://corsply-v0s4.cfloveu.workers.dev/?url=https://live-aburayhan1111.telewebion.ir/ek/hamoon/live/720p/index.m3u8",
     "kind": "hls",
-    "scanStatus": "observed",
-    "alternatives": [],
+    "scanStatus": "candidate_unverified",
+    "alternatives": [
+      "https://live-aburayhan1111.telewebion.ir/ek/hamoon/live/720p/index.m3u8"
+    ],
     "sourceChannel": "Sistan"
   },
   "urmia": {
-    "url": "https://live-aburayhan1109.telewebion.ir/ek/azarbayjangharbi/live/576p/index.m3u8",
+    "url": "https://corsply-v0s4.cfloveu.workers.dev/?url=https://live-aburayhan1109.telewebion.ir/ek/azarbayjangharbi/live/576p/index.m3u8",
     "kind": "hls",
-    "scanStatus": "observed",
-    "alternatives": [],
+    "scanStatus": "candidate_unverified",
+    "alternatives": [
+      "https://live-aburayhan1109.telewebion.ir/ek/azarbayjangharbi/live/576p/index.m3u8"
+    ],
     "sourceChannel": "Urmia"
   },
   "yasouj": {
-    "url": "https://live-aburayhan1104.telewebion.ir/ek/dena/live/720p/index.m3u8",
+    "url": "https://corsply-v0s4.cfloveu.workers.dev/?url=https://live-aburayhan1104.telewebion.ir/ek/dena/live/720p/index.m3u8",
     "kind": "hls",
-    "scanStatus": "observed",
-    "alternatives": [],
+    "scanStatus": "candidate_unverified",
+    "alternatives": [
+      "https://live-aburayhan1104.telewebion.ir/ek/dena/live/720p/index.m3u8"
+    ],
     "sourceChannel": "Yasouj"
   },
   "yazd": {
-    "url": "https://live-aburayhan1106.telewebion.ir/ek/taban/live/720p/index.m3u8",
+    "url": "https://corsply-v0s4.cfloveu.workers.dev/?url=https://live-aburayhan1106.telewebion.ir/ek/taban/live/720p/index.m3u8",
     "kind": "hls",
-    "scanStatus": "observed",
-    "alternatives": [],
+    "scanStatus": "candidate_unverified",
+    "alternatives": [
+      "https://live-aburayhan1106.telewebion.ir/ek/taban/live/720p/index.m3u8"
+    ],
     "sourceChannel": "Yazd"
   },
   "skynews": {
@@ -989,5 +1043,14 @@
     "scanStatus": "200",
     "alternatives": [],
     "sourceChannel": "Persiana Iranian"
+  },
+  "namayesh": {
+    "url": "https://corsply-v0s4.cfloveu.workers.dev/?url=https://live-aburayhan1108.telewebion.ir/ek/namayesh/live/720p/index.m3u8",
+    "kind": "hls",
+    "scanStatus": "user_supplied_unverified",
+    "alternatives": [
+      "https://live-aburayhan1108.telewebion.ir/ek/namayesh/live/720p/index.m3u8"
+    ],
+    "sourceChannel": "Namayesh"
   }
 }
