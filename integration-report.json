@@ -1,0 +1,1087 @@
+{
+  "catalog_count": 222,
+  "matched_count": 135,
+  "unmatched_count": 87,
+  "unmatched_names": [
+    "Channel One",
+    "Manoto TV",
+    "Euronews FA",
+    "PMC",
+    "Tapesh Iran",
+    "T2 Movies",
+    "Persiana Sports 1",
+    "Persiana Sports 2",
+    "GEM TV",
+    "GEM Series",
+    "GEM Film",
+    "GEM Drama",
+    "GEM Comedy",
+    "GEM Kids",
+    "GEM Life",
+    "GEM Classic",
+    "GEM Bollywood",
+    "GEM Nature",
+    "GEM Food",
+    "GEM Junior",
+    "GEM Music",
+    "GEM Sport",
+    "Khatereh TV",
+    "Ekran Movies",
+    "Afra Series",
+    "Grand Cinema",
+    "Royal Time TV",
+    "Mostanad",
+    "Nasim",
+    "Namayesh",
+    "Tamasha",
+    "Salamat",
+    "Amouzesh",
+    "Ardabil",
+    "Booshehr",
+    "Esfahan",
+    "Fars",
+    "Golestan",
+    "Hamedan",
+    "Hormozgan",
+    "Kermanshah",
+    "Khoozestan",
+    "Kish",
+    "Kordestan",
+    "Mashhad",
+    "Mazandaran",
+    "Semnan",
+    "Tabriz",
+    "Zanjan",
+    "Euronews FR",
+    "Euronews RU",
+    "TRT 2",
+    "TRT Spor",
+    "TRT Spor 2",
+    "CNN Turk",
+    "Show TV",
+    "Kanal D",
+    "A Haber",
+    "NTV Izle",
+    "Haberturk TV",
+    "TV100",
+    "Beyaz TV",
+    "USArmenia TV",
+    "NASA TV",
+    "Nat Geo",
+    "Nat Geo Wild",
+    "Radio Hamrah",
+    "Radio Yar",
+    "Radio Ran",
+    "Radio Setareh",
+    "Radio Shadi",
+    "Radio Navahang",
+    "Radio Farda Rd",
+    "Iran Intl Radio",
+    "Radio Parsa",
+    "Radio Mihan",
+    "Radio Novin",
+    "RTL 2",
+    "DMAX",
+    "CGTN Spanish",
+    "Univision TV",
+    "Todo Noticias",
+    "India TV News",
+    "Dawn News",
+    "Keshet 12",
+    "JBS TV",
+    "UA TV"
+  ],
+  "matched": {
+    "Pars TV": {
+      "url": "https://livestream.5centscdn.com/parstvtvweb1/e8ac8f595b3003ea3d22178c05c67593.sdp/playlist.m3u8",
+      "kind": "hls",
+      "scanStatus": "observed",
+      "alternatives": [],
+      "sourceChannel": "Pars TV"
+    },
+    "Iran International": {
+      "url": "https://d234zyvf3b6a4t.cloudfront.net/out/v1/abe3211a88b84dafa7a48b8fb2678895/index.m3u8",
+      "kind": "hls",
+      "scanStatus": "observed",
+      "alternatives": [
+        "https://d234zyvf3b6a4t.cloudfront.net/out/v1/abe3211a88b84dafa7a48b8fb2678895/index_8.m3u8",
+        "https://d234zyvf3b6a4t.cloudfront.net/out/v1/abe3211a88b84dafa7a48b8fb2678895/index_9.m3u8"
+      ],
+      "sourceChannel": "Iran International"
+    },
+    "BBC Persian": {
+      "url": "https://vs-hls-pushb-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_persian_tv/t=3840/v=pv14/b=5070016/main.m3u8",
+      "kind": "hls",
+      "scanStatus": "observed",
+      "alternatives": [],
+      "sourceChannel": "BBC Persian"
+    },
+    "VOA PNN": {
+      "url": "https://voa-ingest.akamaized.net/hls/live/2033876/tvmc07/playlist.m3u8",
+      "kind": "hls",
+      "scanStatus": "observed",
+      "alternatives": [],
+      "sourceChannel": "VOA PNN"
+    },
+    "Iran Wire": {
+      "url": "https://irwhls.wns.live/hls/stream.m3u8",
+      "kind": "hls",
+      "scanStatus": "observed",
+      "alternatives": [],
+      "sourceChannel": "Iran Wire"
+    },
+    "Mihan TV": {
+      "url": "https://iptv.mihantv.com/mihantv/playlist.m3u8",
+      "kind": "hls",
+      "scanStatus": "observed",
+      "alternatives": [],
+      "sourceChannel": "Mihan TV"
+    },
+    "Radio Farda TV": {
+      "url": "https://rferl-ingest.akamaized.net/hls/live/2121768/tvmc01/playlist.m3u8",
+      "kind": "hls",
+      "scanStatus": "observed",
+      "alternatives": [],
+      "sourceChannel": "Radio Farda TV"
+    },
+    "Simaye Azadi": {
+      "url": "https://simaytv.akamaized.net/hls/live/a162cb6c-3be1-4e57-87dc-a75a50b3b8d9/simayhls/index.m3u8",
+      "kind": "hls",
+      "scanStatus": "observed",
+      "alternatives": [
+        "https://simaytv.akamaized.net/hls/live/a162cb6c-3be1-4e57-87dc-a75a50b3b8d9/simayhls/34/media.m3u8",
+        "https://simaytv.akamaized.net/hls/live/a162cb6c-3be1-4e57-87dc-a75a50b3b8d9/simayhls/37/media.m3u8"
+      ],
+      "sourceChannel": "Simaye Azadi"
+    },
+    "Iran Independent": {
+      "url": "https://mediamtx.elitelatrade.com/live/stream/main_stream.m3u8",
+      "kind": "hls",
+      "scanStatus": "observed",
+      "alternatives": [],
+      "sourceChannel": "Iran Independent"
+    },
+    "PMC Royale": {
+      "url": "https://pmcrohls.wns.live/hls/stream.m3u8",
+      "kind": "hls",
+      "scanStatus": "observed",
+      "alternatives": [],
+      "sourceChannel": "PMC Royale"
+    },
+    "Navahang TV": {
+      "url": "https://hls.navahang.live/hls/stream.m3u8",
+      "kind": "hls",
+      "scanStatus": "observed",
+      "alternatives": [],
+      "sourceChannel": "Navahang TV"
+    },
+    "Tapesh": {
+      "url": "https://hls.tapeshtv.live/hls/stream.m3u8",
+      "kind": "hls",
+      "scanStatus": "observed",
+      "alternatives": [],
+      "sourceChannel": "Tapesh"
+    },
+    "MBC Persia": {
+      "url": "https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-persia/818ee8e4b592dc497608f066d825bfb4/index.m3u8",
+      "kind": "hls",
+      "scanStatus": "observed",
+      "alternatives": [
+        "https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-persia/818ee8e4b592dc497608f066d825bfb4/manifest/audio1/192kbps/audio.m3u8"
+      ],
+      "sourceChannel": "MBC Persia"
+    },
+    "4U TV": {
+      "url": "https://hls.4utv.live/hls/stream.m3u8",
+      "kind": "hls",
+      "scanStatus": "observed",
+      "alternatives": [],
+      "sourceChannel": "4U TV"
+    },
+    "4U Family": {
+      "url": "https://familyhls.4utv.live/hls/stream.m3u8",
+      "kind": "hls",
+      "scanStatus": "observed",
+      "alternatives": [],
+      "sourceChannel": "4U Family"
+    },
+    "T2 TV": {
+      "url": "https://t2hls.wns.live/hls/stream.m3u8",
+      "kind": "hls",
+      "scanStatus": "observed",
+      "alternatives": [],
+      "sourceChannel": "T2 TV"
+    },
+    "Persiana TV": {
+      "url": "https://euhls.persiana.live/hls/stream.m3u8",
+      "kind": "hls",
+      "scanStatus": "observed",
+      "alternatives": [],
+      "sourceChannel": "Persiana TV"
+    },
+    "Persiana Music": {
+      "url": "https://musichls.persiana.live/hls/stream.m3u8",
+      "kind": "hls",
+      "scanStatus": "observed",
+      "alternatives": [],
+      "sourceChannel": "Persiana Music"
+    },
+    "Persiana Cinema": {
+      "url": "https://cinehls.persiana.live/hls/stream.m3u8",
+      "kind": "hls",
+      "scanStatus": "observed",
+      "alternatives": [],
+      "sourceChannel": "Persiana Cinema"
+    },
+    "Persiana Series": {
+      "url": "https://onehls.persiana.live/hls/stream.m3u8",
+      "kind": "hls",
+      "scanStatus": "observed",
+      "alternatives": [],
+      "sourceChannel": "Persiana Series"
+    },
+    "Persiana Doc": {
+      "url": "https://scihls.persiana.live/hls/stream.m3u8",
+      "kind": "hls",
+      "scanStatus": "observed",
+      "alternatives": [],
+      "sourceChannel": "Persiana Doc"
+    },
+    "Persiana Science": {
+      "url": "https://scihls.persiana.live/hls/stream.m3u8",
+      "kind": "hls",
+      "scanStatus": "observed",
+      "alternatives": [],
+      "sourceChannel": "Persiana Science"
+    },
+    "Persiana Comedy": {
+      "url": "https://comedyhls.persiana.live/hls/stream.m3u8",
+      "kind": "hls",
+      "scanStatus": "observed",
+      "alternatives": [],
+      "sourceChannel": "Persiana Comedy"
+    },
+    "Afra Film": {
+      "url": "https://afrafhls.wns.live/hls/stream.m3u8",
+      "kind": "hls",
+      "scanStatus": "observed",
+      "alternatives": [],
+      "sourceChannel": "Afra Film"
+    },
+    "Oxir TV": {
+      "url": "https://hls.oxir.live/hls/stream.m3u8",
+      "kind": "hls",
+      "scanStatus": "observed",
+      "alternatives": [],
+      "sourceChannel": "Oxir TV"
+    },
+    "Shabake 1": {
+      "url": "https://live-aburayhan1113.telewebion.ir/ek/tv1/live/720p/index.m3u8",
+      "kind": "hls",
+      "scanStatus": "observed",
+      "alternatives": [],
+      "sourceChannel": "Shabake 1"
+    },
+    "Shabake 2": {
+      "url": "https://live-aburayhan1110.telewebion.ir/ek/tv2/live/720p/index.m3u8",
+      "kind": "hls",
+      "scanStatus": "observed",
+      "alternatives": [],
+      "sourceChannel": "Shabake 2"
+    },
+    "Shabake 3": {
+      "url": "https://cp11.adabmedia.com/hls2/tv3test.m3u8",
+      "kind": "hls",
+      "scanStatus": "observed",
+      "alternatives": [],
+      "sourceChannel": "Shabake 3"
+    },
+    "Shabake 4": {
+      "url": "https://live-aburayhan1102.telewebion.ir/ek/tv4/live/576p/index.m3u8",
+      "kind": "hls",
+      "scanStatus": "observed",
+      "alternatives": [],
+      "sourceChannel": "Shabake 4"
+    },
+    "Shabake 5": {
+      "url": "https://live-aburayhan1107.telewebion.ir/ek/tehran/live/720p/index.m3u8",
+      "kind": "hls",
+      "scanStatus": "observed",
+      "alternatives": [],
+      "sourceChannel": "Shabake 5"
+    },
+    "Shabake Khabar": {
+      "url": "https://live-aburayhan1111.telewebion.ir/ek/irinn/live/720p/index.m3u8",
+      "kind": "hls",
+      "scanStatus": "observed",
+      "alternatives": [],
+      "sourceChannel": "Shabake Khabar"
+    },
+    "Shabake Khabar 2": {
+      "url": "https://live-aburayhan1112.telewebion.ir/ek/irinn2/live/720p/index.m3u8",
+      "kind": "hls",
+      "scanStatus": "observed",
+      "alternatives": [],
+      "sourceChannel": "Shabake Khabar 2"
+    },
+    "Varzesh": {
+      "url": "https://cp11.adabmedia.com/hls2/varzeshtest.m3u8",
+      "kind": "hls",
+      "scanStatus": "observed",
+      "alternatives": [],
+      "sourceChannel": "Varzesh"
+    },
+    "Pooya": {
+      "url": "https://live-aburayhan1106.telewebion.ir/ek/pooya/live/720p/index.m3u8",
+      "kind": "hls",
+      "scanStatus": "observed",
+      "alternatives": [],
+      "sourceChannel": "Pooya"
+    },
+    "Omid": {
+      "url": "https://live-aburayhan1102.telewebion.ir/ek/omid/live/720p/index.m3u8",
+      "kind": "hls",
+      "scanStatus": "observed",
+      "alternatives": [],
+      "sourceChannel": "Omid"
+    },
+    "iFilm Farsi": {
+      "url": "https://live.presstv.co.uk/hls/ifilmfa.m3u8",
+      "kind": "hls",
+      "scanStatus": "observed",
+      "alternatives": [],
+      "sourceChannel": "iFilm Farsi"
+    },
+    "iFilm English": {
+      "url": "https://live.presstv.co.uk/hls/ifilmen.m3u8",
+      "kind": "hls",
+      "scanStatus": "observed",
+      "alternatives": [],
+      "sourceChannel": "iFilm English"
+    },
+    "iFilm Arabic": {
+      "url": "https://live.presstv.co.uk/hls/ifilmar.m3u8",
+      "kind": "hls",
+      "scanStatus": "observed",
+      "alternatives": [],
+      "sourceChannel": "iFilm Arabic"
+    },
+    "iFilm Dari": {
+      "url": "https://live.presstv.co.uk/hls/ifilm2.m3u8",
+      "kind": "hls",
+      "scanStatus": "observed",
+      "alternatives": [],
+      "sourceChannel": "iFilm Dari"
+    },
+    "Press TV": {
+      "url": "https://live.presstv.co.uk/hls/presstv.m3u8",
+      "kind": "hls",
+      "scanStatus": "observed",
+      "alternatives": [],
+      "sourceChannel": "Press TV"
+    },
+    "Ofogh": {
+      "url": "https://live-aburayhan1101.telewebion.ir/ek/ofogh/live/720p/index.m3u8",
+      "kind": "hls",
+      "scanStatus": "observed",
+      "alternatives": [],
+      "sourceChannel": "Ofogh"
+    },
+    "Quran": {
+      "url": "https://live-aburayhan1112.telewebion.ir/ek/quran/live/720p/index.m3u8",
+      "kind": "hls",
+      "scanStatus": "observed",
+      "alternatives": [],
+      "sourceChannel": "Quran"
+    },
+    "Alalam": {
+      "url": "https://live2.alalam.ir/live/Alalam/index.m3u8",
+      "kind": "hls",
+      "scanStatus": "observed",
+      "alternatives": [],
+      "sourceChannel": "Alalam"
+    },
+    "IRNA TV": {
+      "url": "https://tv.irna.ir/live/stream/index.m3u8",
+      "kind": "hls",
+      "scanStatus": "observed",
+      "alternatives": [],
+      "sourceChannel": "IRNA TV"
+    },
+    "Abadan": {
+      "url": "https://live-aburayhan1101.telewebion.ir/ek/abadan/live/576p/index.m3u8",
+      "kind": "hls",
+      "scanStatus": "observed",
+      "alternatives": [],
+      "sourceChannel": "Abadan"
+    },
+    "Alborz": {
+      "url": "https://live-aburayhan1112.telewebion.ir/ek/alborz/live/720p/index.m3u8",
+      "kind": "hls",
+      "scanStatus": "observed",
+      "alternatives": [],
+      "sourceChannel": "Alborz"
+    },
+    "Birjand": {
+      "url": "https://live-aburayhan1113.telewebion.ir/ek/khavaran/live/720p/index.m3u8",
+      "kind": "hls",
+      "scanStatus": "observed",
+      "alternatives": [],
+      "sourceChannel": "Birjand"
+    },
+    "Bojnourd": {
+      "url": "https://live-aburayhan1104.telewebion.ir/ek/atrak/live/576p/index.m3u8",
+      "kind": "hls",
+      "scanStatus": "observed",
+      "alternatives": [],
+      "sourceChannel": "Bojnourd"
+    },
+    "Chahar Mahal": {
+      "url": "https://live-aburayhan1106.telewebion.ir/ek/jahanbin/live/720p/index.m3u8",
+      "kind": "hls",
+      "scanStatus": "observed",
+      "alternatives": [],
+      "sourceChannel": "Chahar Mahal"
+    },
+    "Gilan": {
+      "url": "https://live-aburayhan1106.telewebion.ir/ek/baran/live/576p/index.m3u8",
+      "kind": "hls",
+      "scanStatus": "observed",
+      "alternatives": [],
+      "sourceChannel": "Gilan"
+    },
+    "Ilam": {
+      "url": "https://live-aburayhan1109.telewebion.ir/ek/ilam/live/576p/index.m3u8",
+      "kind": "hls",
+      "scanStatus": "observed",
+      "alternatives": [],
+      "sourceChannel": "Ilam"
+    },
+    "Kerman": {
+      "url": "https://live-aburayhan1106.telewebion.ir/ek/kerman/live/720p/index.m3u8",
+      "kind": "hls",
+      "scanStatus": "observed",
+      "alternatives": [],
+      "sourceChannel": "Kerman"
+    },
+    "Lorestan": {
+      "url": "https://live-aburayhan1103.telewebion.ir/ek/aflak/live/576p/index.m3u8",
+      "kind": "hls",
+      "scanStatus": "observed",
+      "alternatives": [],
+      "sourceChannel": "Lorestan"
+    },
+    "Mahabad": {
+      "url": "https://live-aburayhan1112.telewebion.ir/ek/mahabad/live/720p/index.m3u8",
+      "kind": "hls",
+      "scanStatus": "observed",
+      "alternatives": [],
+      "sourceChannel": "Mahabad"
+    },
+    "Markazi": {
+      "url": "https://live-aburayhan1111.telewebion.ir/ek/aftab/live/720p/index.m3u8",
+      "kind": "hls",
+      "scanStatus": "observed",
+      "alternatives": [],
+      "sourceChannel": "Markazi"
+    },
+    "Qazvin": {
+      "url": "https://live-aburayhan1107.telewebion.ir/ek/qazvin/live/720p/index.m3u8",
+      "kind": "hls",
+      "scanStatus": "observed",
+      "alternatives": [],
+      "sourceChannel": "Qazvin"
+    },
+    "Qom": {
+      "url": "https://live-aburayhan1104.telewebion.ir/ek/noor/live/720p/index.m3u8",
+      "kind": "hls",
+      "scanStatus": "observed",
+      "alternatives": [],
+      "sourceChannel": "Qom"
+    },
+    "Sistan": {
+      "url": "https://live-aburayhan1111.telewebion.ir/ek/hamoon/live/720p/index.m3u8",
+      "kind": "hls",
+      "scanStatus": "observed",
+      "alternatives": [],
+      "sourceChannel": "Sistan"
+    },
+    "Urmia": {
+      "url": "https://live-aburayhan1109.telewebion.ir/ek/azarbayjangharbi/live/576p/index.m3u8",
+      "kind": "hls",
+      "scanStatus": "observed",
+      "alternatives": [],
+      "sourceChannel": "Urmia"
+    },
+    "Yasouj": {
+      "url": "https://live-aburayhan1104.telewebion.ir/ek/dena/live/720p/index.m3u8",
+      "kind": "hls",
+      "scanStatus": "observed",
+      "alternatives": [],
+      "sourceChannel": "Yasouj"
+    },
+    "Yazd": {
+      "url": "https://live-aburayhan1106.telewebion.ir/ek/taban/live/720p/index.m3u8",
+      "kind": "hls",
+      "scanStatus": "observed",
+      "alternatives": [],
+      "sourceChannel": "Yazd"
+    },
+    "Sky News": {
+      "url": "https://linear901-oo-hls0-prd-gtm.delivery.skycdp.com/17501/sde-fast-skynews/master.m3u8",
+      "kind": "hls",
+      "scanStatus": "observed",
+      "alternatives": [
+        "https://linear901-oo-hls0-prd-gtm.delivery.skycdp.com/17501/sde-fast-skynews/stream08/streamPlaylist.m3u8"
+      ],
+      "sourceChannel": "Sky News"
+    },
+    "CBS News": {
+      "url": "https://cbsn-us.cbsnstream.cbsnews.com/out/v1/55a8648e8f134e82a470f83d562deeca/master.m3u8",
+      "kind": "hls",
+      "scanStatus": "observed",
+      "alternatives": [],
+      "sourceChannel": "CBS News"
+    },
+    "Bloomberg": {
+      "url": "https://liveproduseast.global.ssl.fastly.net/us/index.m3u8",
+      "kind": "hls",
+      "scanStatus": "observed",
+      "alternatives": [],
+      "sourceChannel": "Bloomberg"
+    },
+    "ABC News": {
+      "url": "https://abc-news-dmd-streams-1.akamaized.net/out/v1/701126012d044971b3fa89406a440133/index.m3u8",
+      "kind": "hls",
+      "scanStatus": "observed",
+      "alternatives": [
+        "https://abc-news-dmd-streams-1.akamaized.net/out/v1/701126012d044971b3fa89406a440133/index_3_0.m3u8"
+      ],
+      "sourceChannel": "ABC News"
+    },
+    "France 24 EN": {
+      "url": "https://amg00106-amg00106c1-rakuten-uk-4654.playouts.now.amagi.tv/playlist/amg00106-france24fast-france24-rakutenuk/playlist.m3u8",
+      "kind": "hls",
+      "scanStatus": "observed",
+      "alternatives": [],
+      "sourceChannel": "France 24 EN"
+    },
+    "Aljazeera": {
+      "url": "https://live-hls-web-aje-gcp.thehlive.com/AJE/index.m3u8",
+      "kind": "hls",
+      "scanStatus": "observed",
+      "alternatives": [],
+      "sourceChannel": "Aljazeera"
+    },
+    "BBC News": {
+      "url": "https://vs-hls-push-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_news_channel_hd/mobile_wifi_main_hd_abr_v2.m3u8",
+      "kind": "hls",
+      "scanStatus": "observed",
+      "alternatives": [],
+      "sourceChannel": "BBC News"
+    },
+    "WION": {
+      "url": "https://d7x8z4yuq42qn.cloudfront.net/index_7.m3u8",
+      "kind": "hls",
+      "scanStatus": "observed",
+      "alternatives": [],
+      "sourceChannel": "WION"
+    },
+    "DW News": {
+      "url": "https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/index.m3u8",
+      "kind": "hls",
+      "scanStatus": "observed",
+      "alternatives": [],
+      "sourceChannel": "DW News"
+    },
+    "NHK World": {
+      "url": "https://nhk.lls.pbs.org/index.m3u8",
+      "kind": "hls",
+      "scanStatus": "observed",
+      "alternatives": [
+        "https://nhk.lls.pbs.org/index_captions.m3u8"
+      ],
+      "sourceChannel": "NHK World"
+    },
+    "TRT World": {
+      "url": "https://tv-trtworld.medya.trt.com.tr/master.m3u8",
+      "kind": "hls",
+      "scanStatus": "observed",
+      "alternatives": [],
+      "sourceChannel": "TRT World"
+    },
+    "Euronews EN": {
+      "url": "https://a-cdn.klowdtv.com/live3/euronews_720p/playlist.m3u8",
+      "kind": "hls",
+      "scanStatus": "observed",
+      "alternatives": [],
+      "sourceChannel": "Euronews EN"
+    },
+    "Fox Weather": {
+      "url": "https://247wlive.foxweather.com/stream/index.m3u8",
+      "kind": "hls",
+      "scanStatus": "observed",
+      "alternatives": [],
+      "sourceChannel": "Fox Weather"
+    },
+    "AccuWeather": {
+      "url": "https://amg00684-accuweather-accuweather-rokuus-0endj.amagi.tv/playlist.m3u8",
+      "kind": "hls",
+      "scanStatus": "observed",
+      "alternatives": [],
+      "sourceChannel": "AccuWeather"
+    },
+    "CGTN English": {
+      "url": "https://english-livetx.cgtn.com/hls/yypdyyctzb_hd.m3u8",
+      "kind": "hls",
+      "scanStatus": "observed",
+      "alternatives": [],
+      "sourceChannel": "CGTN English"
+    },
+    "CNA TV": {
+      "url": "https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index.m3u8",
+      "kind": "hls",
+      "scanStatus": "observed",
+      "alternatives": [],
+      "sourceChannel": "CNA TV"
+    },
+    "Global News": {
+      "url": "https://live.corusdigitaldev.com/groupd/live/49a91e7f-1023-430f-8d66-561055f3d0f7/live.isml/master.m3u8",
+      "kind": "hls",
+      "scanStatus": "observed",
+      "alternatives": [
+        "https://live.corusdigitaldev.com/groupd/live/49a91e7f-1023-430f-8d66-561055f3d0f7/live.isml/live-audio_1=96000-video=1249984.m3u8"
+      ],
+      "sourceChannel": "Global News"
+    },
+    "Yahoo Finance": {
+      "url": "https://yahoo-plex.amagi.tv/playlist.m3u8",
+      "kind": "hls",
+      "scanStatus": "observed",
+      "alternatives": [],
+      "sourceChannel": "Yahoo Finance"
+    },
+    "Newsmax TV": {
+      "url": "https://nmxlive.akamaized.net/hls/live/529965/Live_1/index.m3u8",
+      "kind": "hls",
+      "scanStatus": "observed",
+      "alternatives": [
+        "https://nmxlive.akamaized.net/hls/live/529965/Live_1/5.m3u8"
+      ],
+      "sourceChannel": "Newsmax TV"
+    },
+    "ABC News AU": {
+      "url": "https://abc-news-dmd-streams-1.akamaized.net/out/v1/701126012d044971b3fa89406a440133/index.m3u8",
+      "kind": "hls",
+      "scanStatus": "observed",
+      "alternatives": [
+        "https://abc-news-dmd-streams-1.akamaized.net/out/v1/701126012d044971b3fa89406a440133/index_3_0.m3u8",
+        "https://abc-news-dmd-streams-1.akamaized.net/out/v1/abc83881886746b0802dc3e7ca2bc792/index.m3u8"
+      ],
+      "sourceChannel": "ABC News AU"
+    },
+    "France 24 FR": {
+      "url": "https://dash4.antik.sk/live/test_france24_france/playlist.m3u8",
+      "kind": "hls",
+      "scanStatus": "observed",
+      "alternatives": [],
+      "sourceChannel": "France 24 FR"
+    },
+    "ATV": {
+      "url": "https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/atv/atv.m3u8",
+      "kind": "hls",
+      "scanStatus": "observed",
+      "alternatives": [],
+      "sourceChannel": "ATV"
+    },
+    "TRT 1": {
+      "url": "https://tv-trt1.medya.trt.com.tr/master.m3u8",
+      "kind": "hls",
+      "scanStatus": "observed",
+      "alternatives": [],
+      "sourceChannel": "TRT 1"
+    },
+    "TRT Haber": {
+      "url": "https://tv-trthaber.medya.trt.com.tr/master.m3u8",
+      "kind": "hls",
+      "scanStatus": "observed",
+      "alternatives": [],
+      "sourceChannel": "TRT Haber"
+    },
+    "TRT Muzik": {
+      "url": "https://tv-trtmuzik.medya.trt.com.tr/master.m3u8",
+      "kind": "hls",
+      "scanStatus": "observed",
+      "alternatives": [],
+      "sourceChannel": "TRT Muzik"
+    },
+    "TRT Cocuk": {
+      "url": "https://tv-trtcocuk.medya.trt.com.tr/master.m3u8",
+      "kind": "hls",
+      "scanStatus": "observed",
+      "alternatives": [],
+      "sourceChannel": "TRT Cocuk"
+    },
+    "Star TV": {
+      "url": "https://dogus.daioncdn.net/startv/startv.m3u8",
+      "kind": "hls",
+      "scanStatus": "observed",
+      "alternatives": [
+        "https://dogus.daioncdn.net/startv/startv_360p.m3u8"
+      ],
+      "sourceChannel": "Star TV"
+    },
+    "Kanal 7": {
+      "url": "https://livetv.radyotvonline.net/kanal7live/kanal7avr/playlist.m3u8",
+      "kind": "hls",
+      "scanStatus": "observed",
+      "alternatives": [],
+      "sourceChannel": "Kanal 7"
+    },
+    "Halk TV": {
+      "url": "https://halktv-live.daioncdn.net/halktv/halktv.m3u8",
+      "kind": "hls",
+      "scanStatus": "observed",
+      "alternatives": [],
+      "sourceChannel": "Halk TV"
+    },
+    "A Spor": {
+      "url": "https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/aspor/aspor.m3u8",
+      "kind": "hls",
+      "scanStatus": "observed",
+      "alternatives": [],
+      "sourceChannel": "A Spor"
+    },
+    "Bloomberg HT": {
+      "url": "https://tv.ensonhaber.com/bloomberght/bloomberght.m3u8",
+      "kind": "hls",
+      "scanStatus": "observed",
+      "alternatives": [],
+      "sourceChannel": "Bloomberg HT"
+    },
+    "Power Turk": {
+      "url": "https://livetv.powerapp.com.tr/powerturkTV/powerturkhd.smil/playlists.m3u8",
+      "kind": "hls",
+      "scanStatus": "observed",
+      "alternatives": [],
+      "sourceChannel": "Power Turk"
+    },
+    "Power TV": {
+      "url": "https://livetv.powerapp.com.tr/powerTV/powerhd.smil/playlists.m3u8",
+      "kind": "hls",
+      "scanStatus": "observed",
+      "alternatives": [],
+      "sourceChannel": "Power TV"
+    },
+    "TGRT Haber": {
+      "url": "https://canli.tgrthaber.com/tgrt.m3u8",
+      "kind": "hls",
+      "scanStatus": "observed",
+      "alternatives": [],
+      "sourceChannel": "TGRT Haber"
+    },
+    "1TV Armenia": {
+      "url": "https://amtvusdvr.tulix.tv/am2abr/index.m3u8",
+      "kind": "hls",
+      "scanStatus": "observed",
+      "alternatives": [],
+      "sourceChannel": "1TV Armenia"
+    },
+    "1TV News": {
+      "url": "https://amtvusdvr.tulix.tv/am3abr/index.m3u8",
+      "kind": "hls",
+      "scanStatus": "observed",
+      "alternatives": [],
+      "sourceChannel": "1TV News"
+    },
+    "1TV America": {
+      "url": "https://amtvusdvr.tulix.tv/am4abr/index.m3u8",
+      "kind": "hls",
+      "scanStatus": "observed",
+      "alternatives": [],
+      "sourceChannel": "1TV America"
+    },
+    "AMGA TV": {
+      "url": "https://streamer1.connectto.com/AMGA_WEB_1202/playlist.m3u8",
+      "kind": "hls",
+      "scanStatus": "observed",
+      "alternatives": [],
+      "sourceChannel": "AMGA TV"
+    },
+    "Song TV": {
+      "url": "https://songtv.hls.iptvdc.com/web-armenia/playlist.m3u8",
+      "kind": "hls",
+      "scanStatus": "observed",
+      "alternatives": [],
+      "sourceChannel": "Song TV"
+    },
+    "TBN Armenia": {
+      "url": "https://164475.gvideo.io/cmaf/164475_650646/master.m3u8",
+      "kind": "hls",
+      "scanStatus": "observed",
+      "alternatives": [
+        "https://164475.gvideo.io/cmaf/164475_650646/media_4.m3u8",
+        "https://164475.gvideo.io/cmaf/164475_650646/media_0.m3u8"
+      ],
+      "sourceChannel": "TBN Armenia"
+    },
+    "Nor Hayastan": {
+      "url": "https://cdn.hayastantv.com:8088/nor-hayastan/index.m3u8",
+      "kind": "hls",
+      "scanStatus": "observed",
+      "alternatives": [],
+      "sourceChannel": "Nor Hayastan"
+    },
+    "AABC TV": {
+      "url": "https://streamer1.connectto.com/AABC_WEB_1201/index.m3u8",
+      "kind": "hls",
+      "scanStatus": "observed",
+      "alternatives": [],
+      "sourceChannel": "AABC TV"
+    },
+    "ARTN Shant TV": {
+      "url": "https://us1.ottstream.live:17071/C294/index.m3u8",
+      "kind": "hls",
+      "scanStatus": "observed",
+      "alternatives": [],
+      "sourceChannel": "ARTN Shant TV"
+    },
+    "Travelxp": {
+      "url": "https://27c980761ff9437d929e64647afe183a.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/RakutenTV-eu_TravelXP/playlist.m3u8",
+      "kind": "hls",
+      "scanStatus": "observed",
+      "alternatives": [],
+      "sourceChannel": "Travelxp"
+    },
+    "Go2Travel TV": {
+      "url": "https://amg09501-amg09501c1-klowdtv-us-2398.playouts.now.amagi.tv/playlist/amg09501-quester-gotraveler-klowdtvus/playlist.m3u8",
+      "kind": "hls",
+      "scanStatus": "observed",
+      "alternatives": [],
+      "sourceChannel": "Go2Travel TV"
+    },
+    "GoTraveler": {
+      "url": "https://amg09501-amg09501c1-klowdtv-us-2398.playouts.now.amagi.tv/playlist/amg09501-quester-gotraveler-klowdtvus/playlist.m3u8",
+      "kind": "hls",
+      "scanStatus": "observed",
+      "alternatives": [],
+      "sourceChannel": "GoTraveler"
+    },
+    "HD Travel TV": {
+      "url": "https://rpn.bozztv.com/gusa/gusa-tvstravel/index.m3u8",
+      "kind": "hls",
+      "scanStatus": "observed",
+      "alternatives": [],
+      "sourceChannel": "HD Travel TV"
+    },
+    "Law & Crime": {
+      "url": "https://a-cdn.klowdtv.com/live3/law_720p/chunks.m3u8",
+      "kind": "hls",
+      "scanStatus": "observed",
+      "alternatives": [],
+      "sourceChannel": "Law & Crime"
+    },
+    "BBC Earth": {
+      "url": "https://amg00793-amg00793c6-firetv-us-4067.playouts.now.amagi.tv/playlist.m3u8",
+      "kind": "hls",
+      "scanStatus": "observed",
+      "alternatives": [],
+      "sourceChannel": "BBC Earth"
+    },
+    "CGTN Doc": {
+      "url": "https://english-livetx.cgtn.com/hls/yypdjlctzb_hd.m3u8",
+      "kind": "hls",
+      "scanStatus": "observed",
+      "alternatives": [],
+      "sourceChannel": "CGTN Doc"
+    },
+    "True History": {
+      "url": "https://linear-188.frequency.stream/dist/glewedtv/188/hls/master/playlist.m3u8",
+      "kind": "hls",
+      "scanStatus": "observed",
+      "alternatives": [
+        "https://linear-188.frequency.stream/dist/glewedtv/188/hls/master/playlist_webvtt.m3u8"
+      ],
+      "sourceChannel": "True History"
+    },
+    "RT Documentary": {
+      "url": "https://rt-rtd.rttv.com/dvr/rtdoc/playlist.m3u8",
+      "kind": "hls",
+      "scanStatus": "observed",
+      "alternatives": [],
+      "sourceChannel": "RT Documentary"
+    },
+    "Military History": {
+      "url": "https://d25lps4m0jar17.cloudfront.net/en-sub-cc1/index.m3u8",
+      "kind": "hls",
+      "scanStatus": "observed",
+      "alternatives": [
+        "https://d25lps4m0jar17.cloudfront.net/Military_Heroes.m3u8"
+      ],
+      "sourceChannel": "Military History"
+    },
+    "Radio Ava IR": {
+      "url": "https://s1.cdn3.iranseda.ir/liveedge/radio-avaa/playlist.m3u8",
+      "kind": "hls",
+      "scanStatus": "observed",
+      "alternatives": [],
+      "sourceChannel": "Radio Ava IR"
+    },
+    "ZDF": {
+      "url": "https://corsply-v0s4.cfloveu.workers.dev/tracks-a1/mono.ts.m3u8",
+      "kind": "hls",
+      "scanStatus": "observed",
+      "alternatives": [],
+      "sourceChannel": "ZDF"
+    },
+    "RTL": {
+      "url": "https://corsply-v0s4.cfloveu.workers.dev/tracks-a1/mono.ts.m3u8",
+      "kind": "hls",
+      "scanStatus": "observed",
+      "alternatives": [],
+      "sourceChannel": "RTL"
+    },
+    "ProSieben": {
+      "url": "https://corsply-v0s4.cfloveu.workers.dev/tracks-a1/mono.ts.m3u8",
+      "kind": "hls",
+      "scanStatus": "observed",
+      "alternatives": [],
+      "sourceChannel": "ProSieben"
+    },
+    "Sat1": {
+      "url": "https://corsply-v0s4.cfloveu.workers.dev/tracks-a1/mono.ts.m3u8",
+      "kind": "hls",
+      "scanStatus": "observed",
+      "alternatives": [],
+      "sourceChannel": "Sat1"
+    },
+    "NDR": {
+      "url": "https://ndrint.akamaized.net/hls/live/2020766/ndr_int/master.m3u8",
+      "kind": "hls",
+      "scanStatus": "observed",
+      "alternatives": [
+        "https://ndrint.akamaized.net/hls/live/2020766/ndr_int/master-subs.m3u8",
+        "https://ndrint.akamaized.net/hls/live/2020766/ndr_int/master-audio1-128.m3u8"
+      ],
+      "sourceChannel": "NDR"
+    },
+    "Das Erste": {
+      "url": "https://daserste-live.ard-mcdn.de/daserste/live/hls/int/master.m3u8",
+      "kind": "hls",
+      "scanStatus": "observed",
+      "alternatives": [
+        "https://daserste-live.ard-mcdn.de/daserste/live/hls/int/mastersubs.m3u8",
+        "https://daserste-live.ard-mcdn.de/daserste/live/hls/int/masteraudio1.m3u8"
+      ],
+      "sourceChannel": "Das Erste"
+    },
+    "WDR": {
+      "url": "https://wdrfsww247.akamaized.net/hls/live/2009628/wdr_msl4_fs247ww/master.m3u8",
+      "kind": "hls",
+      "scanStatus": "observed",
+      "alternatives": [
+        "https://wdrfsww247.akamaized.net/hls/live/2009628/wdr_msl4_fs247ww/master_subs.m3u8"
+      ],
+      "sourceChannel": "WDR"
+    },
+    "Arirang TV": {
+      "url": "https://amdlive-ch01-ctnd-com.akamaized.net/arirang_1ch/smil:arirang_1ch.smil/playlist.m3u8",
+      "kind": "hls",
+      "scanStatus": "observed",
+      "alternatives": [],
+      "sourceChannel": "Arirang TV"
+    },
+    "DW Spanish": {
+      "url": "https://dwamdstream104.akamaized.net/hls/live/2015530/dwstream104/index.m3u8",
+      "kind": "hls",
+      "scanStatus": "observed",
+      "alternatives": [],
+      "sourceChannel": "DW Spanish"
+    },
+    "France 24 ES": {
+      "url": "https://a-cdn.klowdtv.com/live2/france24sp_720p/playlist.m3u8",
+      "kind": "hls",
+      "scanStatus": "observed",
+      "alternatives": [],
+      "sourceChannel": "France 24 ES"
+    },
+    "Telemundo": {
+      "url": "https://xumo-drct-ch836-57aiq.fast.nbcuni.com/live/master.m3u8",
+      "kind": "hls",
+      "scanStatus": "observed",
+      "alternatives": [
+        "https://xumo-drct-ch836-57aiq.fast.nbcuni.com/live/master_caption.m3u8"
+      ],
+      "sourceChannel": "Telemundo"
+    },
+    "TV Azteca": {
+      "url": "https://azt-mun.otteravision.com/azt/mun/mun.m3u8",
+      "kind": "hls",
+      "scanStatus": "observed",
+      "alternatives": [],
+      "sourceChannel": "TV Azteca"
+    },
+    "RT Spanish": {
+      "url": "https://rt-esp.rttv.com/dvr/rtesp/playlist.m3u8",
+      "kind": "hls",
+      "scanStatus": "observed",
+      "alternatives": [],
+      "sourceChannel": "RT Spanish"
+    },
+    "9XM": {
+      "url": "https://9xjio.wiseplayout.com/9XM/master.m3u8",
+      "kind": "hls",
+      "scanStatus": "observed",
+      "alternatives": [],
+      "sourceChannel": "9XM"
+    },
+    "Bollywood HD": {
+      "url": "https://xykt-fix.github.io/cinerama_edge01/hls/BOLLYWOOD_RU/Movie009.m3u8",
+      "kind": "hls",
+      "scanStatus": "observed",
+      "alternatives": [],
+      "sourceChannel": "Bollywood HD"
+    },
+    "Kan 11": {
+      "url": "https://n-160-5.cdn.avcom-bezeq.tv/webcache/redge-il/livehls/oil/kancdn-live/live/kan11/live.livx/playlist.m3u8",
+      "kind": "hls",
+      "scanStatus": "observed",
+      "alternatives": [
+        "https://kancdn.medonecdn.net/livehls/oil/kancdn-live/live/kan11/live.livx/playlist.m3u8",
+        "https://r.cdn.avcom-bezeq.tv/webcache/redge-il/livehls/oil/kancdn-live/live/kan11/live.livx/playlist.m3u8"
+      ],
+      "sourceChannel": "Kan 11"
+    },
+    "Reshet 13": {
+      "url": "https://d2xg1g9o5vns8m.cloudfront.net/out/v1/0855d703f7d5436fae6a9c7ce8ca5075/index.m3u8",
+      "kind": "hls",
+      "scanStatus": "observed",
+      "alternatives": [],
+      "sourceChannel": "Reshet 13"
+    },
+    "Makan 33": {
+      "url": "https://n-121-5.il.cdn-redge.media/livehls/oil/kancdn-live/live/makan/live.livx/playlist.m3u8",
+      "kind": "hls",
+      "scanStatus": "observed",
+      "alternatives": [
+        "https://kancdn.medonecdn.net/livehls/oil/kancdn-live/live/makan/live.livx/playlist.m3u8",
+        "https://r.il.cdn-redge.media/livehls/oil/kancdn-live/live/makan/live.livx/playlist.m3u8"
+      ],
+      "sourceChannel": "Makan 33"
+    },
+    "Channel 24": {
+      "url": "https://streamvideol1.luxnet.ua/news24/livenews.m3u8",
+      "kind": "hls",
+      "scanStatus": "observed",
+      "alternatives": [],
+      "sourceChannel": "Channel 24"
+    },
+    "Persiana Iranian": {
+      "url": "https://irhls.persiana.live/hls/stream.m3u8",
+      "kind": "hls",
+      "scanStatus": "observed",
+      "alternatives": [],
+      "sourceChannel": "Persiana Iranian"
+    }
+  }
+}

@@ -1,4 +1,4 @@
-// Seeds are verified channel names from the public ParsaTV directory, not verified stream URLs.
+// Seeds are verified channel names from the public reference site directory, not verified stream URLs.
 const groups = {
 'فارسی': 'Pars TV|Iran International|BBC Persian|VOA PNN|Iran Wire|Mihan TV|Channel One|Manoto TV|Radio Farda TV|Euronews FA|Simaye Azadi|Iran Independent|PMC|PMC Royale|Navahang TV|Tapesh|Tapesh Iran|MBC Persia|4U TV|4U Family|T2 TV|T2 Movies|Persiana TV|Persiana Music|Persiana Cinema|Persiana Series|Persiana Doc|Persiana Science|Persiana Comedy|Persiana Sports 1|Persiana Sports 2|GEM TV|GEM Series|GEM Film|GEM Drama|GEM Comedy|GEM Kids|GEM Life|GEM Classic|GEM Bollywood|GEM Nature|GEM Food|GEM Junior|GEM Music|GEM Sport|Khatereh TV|Ekran Movies|Afra Film|Afra Series|Grand Cinema|Oxir TV|Royal Time TV',
 'ایران': 'Shabake 1|Shabake 2|Shabake 3|Shabake 4|Shabake 5|Shabake Khabar|Shabake Khabar 2|Varzesh|Mostanad|Nasim|Namayesh|Tamasha|Pooya|Omid|Salamat|Amouzesh|iFilm Farsi|iFilm English|iFilm Arabic|iFilm Dari|Press TV|Ofogh|Quran|Alalam|IRNA TV',
@@ -10,7 +10,7 @@ const groups = {
 'رادیو': 'Radio Hamrah|Radio Yar|Radio Ran|Radio Setareh|Radio Shadi|Radio Navahang|Radio Farda Rd|Iran Intl Radio|Radio Parsa|Radio Mihan|Radio Novin|Radio Ava IR',
 'بین‌المللی': 'ZDF|RTL|RTL 2|ProSieben|Sat1|NDR|Das Erste|WDR|DMAX|Arirang TV|CGTN Spanish|DW Spanish|France 24 ES|Telemundo|TV Azteca|Univision TV|Todo Noticias|RT Spanish|India TV News|Dawn News|9XM|Bollywood HD|Kan 11|Keshet 12|Reshet 13|Makan 33|JBS TV|Channel 24|UA TV'
 };
-// Display labels are separate from ParsaTV's Latin channel identifiers.
+// Display labels are separate from reference site's Latin channel identifiers.
 const persianNames = {
 'Pars TV':'پارس تی‌وی','Iran International':'ایران اینترنشنال','BBC Persian':'بی‌بی‌سی فارسی','VOA PNN':'صدای آمریکا','Iran Wire':'ایران وایر','Mihan TV':'میهن تی‌وی','Channel One':'کانال یک','Manoto TV':'من‌وتو','Radio Farda TV':'رادیو فردا','Euronews FA':'یورونیوز فارسی','Simaye Azadi':'سیمای آزادی','Iran Independent':'ایران ایندیپندنت','PMC':'پی‌ام‌سی','PMC Royale':'پی‌ام‌سی رویال','Navahang TV':'نواهنگ','Tapesh':'طپش','Tapesh Iran':'طپش ایران','MBC Persia':'ام‌بی‌سی پرشیا','4U TV':'فور یو','4U Family':'فور یو فمیلی','T2 TV':'تی‌تو','T2 Movies':'تی‌تو موویز','Persiana TV':'پرشیانا تی‌وی','Persiana Iranian':'پرشیانا ایرانی','Persiana Music':'پرشیانا موزیک','Persiana Cinema':'پرشیانا سینما','Persiana Series':'پرشیانا سریال','Persiana Doc':'پرشیانا مستند','Persiana Science':'پرشیانا علم','Persiana Comedy':'پرشیانا کمدی','Persiana Sports 1':'پرشیانا اسپرت ۱','Persiana Sports 2':'پرشیانا اسپرت ۲','GEM TV':'جم تی‌وی','GEM Series':'جم سریال','GEM Film':'جم فیلم','GEM Drama':'جم دراما','GEM Comedy':'جم کمدی','GEM Kids':'جم کودک','GEM Life':'جم لایف','GEM Classic':'جم کلاسیک','GEM Bollywood':'جم بالیوود','GEM Nature':'جم طبیعت','GEM Food':'جم غذا','GEM Junior':'جم جونیور','GEM Music':'جم موزیک','GEM Sport':'جم اسپرت','Khatereh TV':'خاطره','Ekran Movies':'اکران فیلم','Afra Film':'افرا فیلم','Afra Series':'افرا سریال','Grand Cinema':'گرند سینما','Oxir TV':'اکسیر','Royal Time TV':'رویال تایم',
 'Shabake 1':'شبکه یک','Shabake 2':'شبکه دو','Shabake 3':'شبکه سه','Shabake 4':'شبکه چهار','Shabake 5':'شبکه پنج','Shabake Khabar':'شبکه خبر','Shabake Khabar 2':'شبکه خبر ۲','Varzesh':'شبکه ورزش','Mostanad':'شبکه مستند','Nasim':'شبکه نسیم','Namayesh':'شبکه نمایش','Tamasha':'شبکه تماشا','Pooya':'شبکه پویا','Omid':'شبکه امید','Salamat':'شبکه سلامت','Amouzesh':'شبکه آموزش','iFilm Farsi':'آی‌فیلم فارسی','iFilm Dari':'آی‌فیلم دری','Ofogh':'شبکه افق','Quran':'شبکه قرآن',
@@ -26,11 +26,7 @@ export function displayName(name, category) {
  }
  return name;
 }
-export function embedUrl(channel) {
- const identifier = channel.parsaName || channel.originalName || channel.name;
- const slug = identifier.trim().replace(/\s+/g,'-');
- return `https://www.parsatv.com/embed.php?name=${encodeURIComponent(slug)}&auto=false`;
-}
-const seed = Object.entries(groups).flatMap(([category,s])=>s.split('|').map(name=>({id:name.toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,''),name:displayName(name,category),originalName:name,parsaName:name.replaceAll(' ','-'),category,sourcePage:`https://www.parsatv.com/name%3D${encodeURIComponent(name.replaceAll(' ','-'))}`,type:'iframe'})));
-seed.unshift({id:'persiana-iranian',name:'پرشیانا ایرانی',originalName:'Persiana Iranian',parsaName:'Persiana-Iranian',category:'فارسی',sourcePage:'https://www.parsatv.com/name%3DPersiana-Iranian',type:'iframe'});
+// Channel identifiers are display labels; direct playback URLs are loaded from streams.json.
+const seed = Object.entries(groups).flatMap(([category,s])=>s.split('|').map(name=>({id:name.toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,''),name:displayName(name,category),originalName:name,category,type:'direct'})));
+seed.unshift({id:'persiana-iranian',name:'پرشیانا ایرانی',originalName:'Persiana Iranian',category:'فارسی',type:'direct'});
 export default [...new Map(seed.map(c=>[c.id,c])).values()];
