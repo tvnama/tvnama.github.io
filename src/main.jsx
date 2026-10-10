@@ -100,7 +100,7 @@ function Player({channel}) {
  </div></div><div className="tv-bottom" aria-hidden="true"><span className="tv-wordmark">MAHNAMA TV</span><span className="tv-power-dot"/></div><div className="tv-stand" aria-hidden="true"/></div>
  {sourceUrls.length>0&&<div className="stream-controls" dir="rtl">
    <label className="stream-control"><span>کیفیت</span><select aria-label="انتخاب کیفیت" value={quality} onChange={e=>changeQuality(e.target.value)}><option value="auto">خودکار (متناسب با اینترنت)</option>{levels.map(l=><option key={l.index} value={String(l.index)}>{l.height?`${l.height}p`:`کیفیت ${l.index+1}`}{l.bitrate?` · ${Math.round(l.bitrate/1000)} kbps`:''}</option>)}</select></label>
-   <label className="stream-control"><span>لینک پخش</span><select aria-label="تغییر لینک پخش" value={sourceIndex} onChange={e=>changeSource(Number(e.target.value))}>{sourceUrls.map((url,i)=><option key={url} value={i}>لینک {i+1} · {(()=>{try{return new URL(url).hostname}catch{return 'منبع پخش'}})()}</option>)}</select></label>
+   <label className="stream-control"><span>لینک پخش</span><select aria-label="تغییر لینک پخش" value={sourceIndex} onChange={e=>changeSource(Number(e.target.value))}>{sourceUrls.map((url,i)=><option key={url} value={i}>لینک {i+1}</option>)}</select></label>
    <label className="auto-source-option"><input type="checkbox" checked={autoSource} onChange={e=>{setAutoSource(e.target.checked);autoRef.current=e.target.checked}}/> تعویض خودکار لینک هنگام خطا</label>
    <span className="play-state" role="status">{state==='playing'?'● در حال پخش':state==='loading'?'در حال آزمایش منبع…':state==='failed'?'منبع در دسترس نیست':''}</span>
    {sourceUrls.length>1&&<button className="next-source" onClick={nextSource}><RefreshCw size={14}/> لینک بعدی</button>}

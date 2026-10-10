@@ -1052,5 +1052,306 @@
       "https://live-aburayhan1108.telewebion.ir/ek/namayesh/live/720p/index.m3u8"
     ],
     "sourceChannel": "Namayesh"
+  },
+  "tamasha": {
+    "url": "https://corsply-v0s4.cfloveu.workers.dev/?url=https://live-aburayhan1106.telewebion.ir/ek/hdtest/live/720p/index.m3u8",
+    "kind": "hls",
+    "scanStatus": "user_supplied_not_verified",
+    "alternatives": [],
+    "sourceChannel": "Tamasha"
+  },
+  "channelone": {
+    "url": "https://persiran.online/codes/spf-aparat.php?url=https%3A%2F%2Fgg.hls2.xyz%2Flive%2FAP%2520Channel%2520One%2Fchunks.m3u8",
+    "alternatives": [],
+    "kind": "hls",
+    "sourceChannel": "Channel One",
+    "scanStatus": "jwplayer-extracted"
+  },
+  "pmc": {
+    "url": "https://spf-onetv-9i4j.cfloveu.workers.dev/?url=https://ca-rt.onetv.app/PMCMusic/index-0.m3u8",
+    "alternatives": [],
+    "kind": "hls",
+    "sourceChannel": "PMC",
+    "scanStatus": "jwplayer-extracted"
+  },
+  "tapeshiran": {
+    "url": "https://iptv.tapesh.tv/tapeshiran/playlist.m3u8",
+    "alternatives": [],
+    "kind": "hls",
+    "sourceChannel": "Tapesh Iran",
+    "scanStatus": "jwplayer-extracted"
+  },
+  "t2movies": {
+    "url": "https://spf-onetv-9i4j.cfloveu.workers.dev/?url=https://ca-rt.onetv.app/T2Movies/index-0.m3u8",
+    "alternatives": [],
+    "kind": "hls",
+    "sourceChannel": "T2 Movies",
+    "scanStatus": "jwplayer-extracted"
+  },
+  "gemtv": {
+    "url": "https://persiran.online/codes/spf-aparat.php?url=https%3A%2F%2Fgg.hls2.xyz%2Flive%2FIR%2520-%2520GEM%2520TV2%2Fplaylist.m3u8",
+    "alternatives": [],
+    "kind": "hls",
+    "sourceChannel": "GEM TV",
+    "scanStatus": "jwplayer-extracted"
+  },
+  "gemseries": {
+    "url": "https://persiran.online/codes/spf-aparat.php?url=https%3A%2F%2Fgg.hls2.xyz%2Flive%2FIR%2520-%2520GEM%2520Series%25202%2Fplaylist.m3u8",
+    "alternatives": [],
+    "kind": "hls",
+    "sourceChannel": "GEM Series",
+    "scanStatus": "jwplayer-extracted"
+  },
+  "gemfilm": {
+    "url": "https://persiran.online/codes/spf-aparat.php?url=https%3A%2F%2Fgg.hls2.xyz%2Flive%2FIR%2520-%2520GEM%2520Film2%2Fplaylist.m3u8",
+    "alternatives": [],
+    "kind": "hls",
+    "sourceChannel": "GEM Film",
+    "scanStatus": "jwplayer-extracted"
+  },
+  "gemdrama": {
+    "url": "https://persiran.online/codes/spf-aparat.php?url=https%3A%2F%2Fgg.hls2.xyz%2Flive%2FIR%2520-%2520GEM%2520Drama2%2Fplaylist.m3u8",
+    "alternatives": [],
+    "kind": "hls",
+    "sourceChannel": "GEM Drama",
+    "scanStatus": "jwplayer-extracted"
+  },
+  "gemcomedy": {
+    "url": "https://persiran.online/codes/spf-aparat.php?url=https%3A%2F%2Fgg.hls2.xyz%2Flive%2FIR%2520-%2520GEM%2520Comedy2%2Fplaylist.m3u8",
+    "alternatives": [],
+    "kind": "hls",
+    "sourceChannel": "GEM Comedy",
+    "scanStatus": "jwplayer-extracted"
+  },
+  "gemkids": {
+    "url": "https://persiran.online/codes/spf-aparat.php?url=https%3A%2F%2Fgg.hls2.xyz%2Flive%2FIR%2520-%2520GEM%2520Kids2%2Fplaylist.m3u8",
+    "alternatives": [],
+    "kind": "hls",
+    "sourceChannel": "GEM Kids",
+    "scanStatus": "jwplayer-extracted"
+  },
+  "gemlife": {
+    "url": "https://persiran.online/codes/spf-aparat.php?url=https%3A%2F%2Fgg.hls2.xyz%2Flive%2FIR%2520-%2520GEM%2520Life2%2Fplaylist.m3u8",
+    "alternatives": [],
+    "kind": "hls",
+    "sourceChannel": "GEM Life",
+    "scanStatus": "jwplayer-extracted"
+  },
+  "gemclassic": {
+    "url": "https://persiran.online/codes/spf-aparat.php?url=https%3A%2F%2Fgg.hls2.xyz%2Flive%2FIR%2520-%2520GEM%2520CLASSIC2%2Fplaylist.m3u8",
+    "alternatives": [],
+    "kind": "hls",
+    "sourceChannel": "GEM Classic",
+    "scanStatus": "jwplayer-extracted"
+  },
+  "gembollywood": {
+    "url": "https://persiran.online/codes/spf-aparat.php?url=https%3A%2F%2Fgg.hls2.xyz%2Flive%2FIR%2520-%2520GEM%2520Bollywood2%2Fplaylist.m3u8",
+    "alternatives": [],
+    "kind": "hls",
+    "sourceChannel": "GEM Bollywood",
+    "scanStatus": "jwplayer-extracted"
+  },
+  "gemnature": {
+    "url": "https://persiran.online/codes/spf-aparat.php?url=https%3A%2F%2Fgg.hls2.xyz%2Flive%2FGem-Nature%2Fplaylist.m3u8",
+    "alternatives": [],
+    "kind": "hls",
+    "sourceChannel": "GEM Nature",
+    "scanStatus": "jwplayer-extracted"
+  },
+  "gemjunior": {
+    "url": "https://persiran.online/codes/spf-aparat.php?url=https%3A%2F%2Fgg.hls2.xyz%2Flive%2FIR%2520-%2520GEM%2520Junior2%2Fplaylist.m3u8",
+    "alternatives": [],
+    "kind": "hls",
+    "sourceChannel": "GEM Junior",
+    "scanStatus": "jwplayer-extracted"
+  },
+  "khaterehtv": {
+    "url": "https://radio.khatereh.online:5443/LiveApp/streams/jWF37YKCgZ0FSYTR863687974499636.m3u8",
+    "alternatives": [],
+    "kind": "hls",
+    "sourceChannel": "Khatereh TV",
+    "scanStatus": "jwplayer-extracted"
+  },
+  "ekranmovies": {
+    "url": "https://spf-onetv-9i4j.cfloveu.workers.dev/?url=https://ca-rt.onetv.app/EkranMovies/index-0.m3u8",
+    "alternatives": [],
+    "kind": "hls",
+    "sourceChannel": "Ekran Movies",
+    "scanStatus": "jwplayer-extracted"
+  },
+  "mostanad": {
+    "url": "https://corsply-v0s4.cfloveu.workers.dev/?url=https://live-aburayhan1105.telewebion.ir/ek/mostanad/live/720p/index.m3u8",
+    "alternatives": [],
+    "kind": "hls",
+    "sourceChannel": "Mostanad",
+    "scanStatus": "jwplayer-extracted"
+  },
+  "nasim": {
+    "url": "https://corsply-v0s4.cfloveu.workers.dev/?url=https://live-aburayhan1111.telewebion.ir/ek/nasim/live/720p/index.m3u8",
+    "alternatives": [],
+    "kind": "hls",
+    "sourceChannel": "Nasim",
+    "scanStatus": "jwplayer-extracted"
+  },
+  "salamat": {
+    "url": "https://corsply-v0s4.cfloveu.workers.dev/?url=https://live-aburayhan1101.telewebion.ir/ek/salamat/live/576p/index.m3u8",
+    "alternatives": [],
+    "kind": "hls",
+    "sourceChannel": "Salamat",
+    "scanStatus": "jwplayer-extracted"
+  },
+  "amouzesh": {
+    "url": "https://corsply-v0s4.cfloveu.workers.dev/?url=https://live-aburayhan1113.telewebion.ir/ek/amouzesh/live/576p/index.m3u8",
+    "alternatives": [],
+    "kind": "hls",
+    "sourceChannel": "Amouzesh",
+    "scanStatus": "jwplayer-extracted"
+  },
+  "ardabil": {
+    "url": "https://corsply-v0s4.cfloveu.workers.dev/?url=https://live-aburayhan1103.telewebion.ir/ek/sabalan/live/576p/index.m3u8",
+    "alternatives": [],
+    "kind": "hls",
+    "sourceChannel": "Ardabil",
+    "scanStatus": "jwplayer-extracted"
+  },
+  "booshehr": {
+    "url": "https://corsply-v0s4.cfloveu.workers.dev/?url=https://live-aburayhan1108.telewebion.ir/ek/bushehr/live/720p/index.m3u8",
+    "alternatives": [],
+    "kind": "hls",
+    "sourceChannel": "Booshehr",
+    "scanStatus": "jwplayer-extracted"
+  },
+  "esfahan": {
+    "url": "https://corsply-v0s4.cfloveu.workers.dev/?url=https://live-aburayhan1110.telewebion.ir/ek/esfahan/live/720p/index.m3u8",
+    "alternatives": [],
+    "kind": "hls",
+    "sourceChannel": "Esfahan",
+    "scanStatus": "jwplayer-extracted"
+  },
+  "fars": {
+    "url": "https://corsply-v0s4.cfloveu.workers.dev/?url=https://live-aburayhan1106.telewebion.ir/ek/fars/live/720p/index.m3u8",
+    "alternatives": [],
+    "kind": "hls",
+    "sourceChannel": "Fars",
+    "scanStatus": "jwplayer-extracted"
+  },
+  "golestan": {
+    "url": "https://corsply-v0s4.cfloveu.workers.dev/?url=https://live-aburayhan1107.telewebion.ir/ek/sabz/live/576p/index.m3u8",
+    "alternatives": [],
+    "kind": "hls",
+    "sourceChannel": "Golestan",
+    "scanStatus": "jwplayer-extracted"
+  },
+  "hamedan": {
+    "url": "https://corsply-v0s4.cfloveu.workers.dev/?url=https://live-aburayhan1103.telewebion.ir/ek/sina/live/576p/index.m3u8",
+    "alternatives": [],
+    "kind": "hls",
+    "sourceChannel": "Hamedan",
+    "scanStatus": "jwplayer-extracted"
+  },
+  "hormozgan": {
+    "url": "https://corsply-v0s4.cfloveu.workers.dev/?url=https://live-aburayhan1106.telewebion.ir/ek/khalijefars/live/720p/index.m3u8",
+    "alternatives": [],
+    "kind": "hls",
+    "sourceChannel": "Hormozgan",
+    "scanStatus": "jwplayer-extracted"
+  },
+  "kermanshah": {
+    "url": "https://corsply-v0s4.cfloveu.workers.dev/?url=https://live-aburayhan1107.telewebion.ir/ek/zagros/live/576p/index.m3u8",
+    "alternatives": [],
+    "kind": "hls",
+    "sourceChannel": "Kermanshah",
+    "scanStatus": "jwplayer-extracted"
+  },
+  "khoozestan": {
+    "url": "https://corsply-v0s4.cfloveu.workers.dev/?url=https://live-aburayhan1111.telewebion.ir/ek/khoozestan/live/576p/index.m3u8",
+    "alternatives": [],
+    "kind": "hls",
+    "sourceChannel": "Khoozestan",
+    "scanStatus": "jwplayer-extracted"
+  },
+  "kish": {
+    "url": "https://corsply-v0s4.cfloveu.workers.dev/?url=https://live-aburayhan1111.telewebion.ir/ek/kish/live/576p/index.m3u8",
+    "alternatives": [],
+    "kind": "hls",
+    "sourceChannel": "Kish",
+    "scanStatus": "jwplayer-extracted"
+  },
+  "kordestan": {
+    "url": "https://corsply-v0s4.cfloveu.workers.dev/?url=https://live-aburayhan1104.telewebion.ir/ek/kordestan/live/720p/index.m3u8",
+    "alternatives": [],
+    "kind": "hls",
+    "sourceChannel": "Kordestan",
+    "scanStatus": "jwplayer-extracted"
+  },
+  "mashhad": {
+    "url": "https://corsply-v0s4.cfloveu.workers.dev/?url=https://live-aburayhan1101.telewebion.ir/ek/khorasanrazavi/live/720p/index.m3u8",
+    "alternatives": [],
+    "kind": "hls",
+    "sourceChannel": "Mashhad",
+    "scanStatus": "jwplayer-extracted"
+  },
+  "mazandaran": {
+    "url": "https://corsply-v0s4.cfloveu.workers.dev/?url=https://live-aburayhan1107.telewebion.ir/ek/tabarestan/live/720p/index.m3u8",
+    "alternatives": [],
+    "kind": "hls",
+    "sourceChannel": "Mazandaran",
+    "scanStatus": "jwplayer-extracted"
+  },
+  "semnan": {
+    "url": "https://corsply-v0s4.cfloveu.workers.dev/?url=https://live-aburayhan1108.telewebion.ir/ek/semnan/live/720p/index.m3u8",
+    "alternatives": [],
+    "kind": "hls",
+    "sourceChannel": "Semnan",
+    "scanStatus": "jwplayer-extracted"
+  },
+  "tabriz": {
+    "url": "https://corsply-v0s4.cfloveu.workers.dev/?url=https://live-aburayhan1111.telewebion.ir/ek/sahand/live/576p/index.m3u8",
+    "alternatives": [],
+    "kind": "hls",
+    "sourceChannel": "Tabriz",
+    "scanStatus": "jwplayer-extracted"
+  },
+  "zanjan": {
+    "url": "https://corsply-v0s4.cfloveu.workers.dev/?url=https://live-aburayhan1103.telewebion.ir/ek/eshragh/live/720p/index.m3u8",
+    "alternatives": [],
+    "kind": "hls",
+    "sourceChannel": "Zanjan",
+    "scanStatus": "jwplayer-extracted"
+  },
+  "usarmeniatv": {
+    "url": "https://oldkors-k0y7s.cfloveu.workers.dev/?url=http://livestream.usatv.com/hls/master-iUSATVLIVENET.m3u8",
+    "alternatives": [],
+    "kind": "hls",
+    "sourceChannel": "USArmenia TV",
+    "scanStatus": "jwplayer-extracted"
+  },
+  "rtl2": {
+    "url": "https://corsply-v0s4.cfloveu.workers.dev/?url=https://s6.hopslan.com/rtl2q/index.m3u8",
+    "alternatives": [],
+    "kind": "hls",
+    "sourceChannel": "RTL 2",
+    "scanStatus": "jwplayer-extracted"
+  },
+  "dmax": {
+    "url": "https://corsply-v0s4.cfloveu.workers.dev/?url=https://s6.hopslan.com/dmaxX/index.m3u8",
+    "alternatives": [],
+    "kind": "hls",
+    "sourceChannel": "DMAX",
+    "scanStatus": "jwplayer-extracted"
+  },
+  "cgtnspanish": {
+    "url": "https://espanol-livews.cgtn.com/hls/LSveOGBaBw41Ea7ukkVAUdKQ220802LSTexu6xAuFH8VZNBLE1ZNEa220802cd/playlist.m3u8",
+    "alternatives": [],
+    "kind": "hls",
+    "sourceChannel": "CGTN Spanish",
+    "scanStatus": "jwplayer-extracted"
+  },
+  "jbstv": {
+    "url": "https://uni8rtmp.tulix.tv/shalomtv-pc/smil:shalomtv.smil/playlist.m3u8",
+    "alternatives": [],
+    "kind": "hls",
+    "sourceChannel": "JBS TV",
+    "scanStatus": "jwplayer-extracted"
   }
 }
