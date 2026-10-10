@@ -16,38 +16,103 @@ const categories=['همه شبکه‌ها','مورد علاقه‌ها','فار�
 function readFavs(){try {return JSON.parse(localStorage.getItem('mahnama.favorites')||'[]')} catch{return []}}
 function Player({channel}) {
  const videoRef=useRef(null);
- const [reload,setReload]=useState(0);
+ const engineRef=useRef(null);
+ const [sourceIndex,setSourceIndex]=useState(0);
+ const [quality,setQuality]=useState('auto');
+ const [levels,setLevels]=useState([]);
  const [error,setError]=useState('');
+ const [state,setState]=useState('idle');
+ const [autoSource,setAutoSource]=useState(true);
+ const [reload,setReload]=useState(0);
+ const sourceUrls=useMemo(()=>Array.from(new Set([channel?.streamUrl,...(channel?.alternatives||[])].filter(Boolean))),[channel]);
+ const urlsRef=useRef(sourceUrls); urlsRef.current=sourceUrls;
+ const indexRef=useRef(sourceIndex); indexRef.current=sourceIndex;
+ const autoRef=useRef(autoSource); autoRef.current=autoSource;
+ const advanceRef=useRef(()=>{});
+ useEffect(()=>{setSourceIndex(0);indexRef.current=0;setQuality('auto');setLevels([]);setError('');setState('idle');setAutoSource(true);autoRef.current=true;setReload(n=>n+1)},[channel?.id]);
+ const changeSource=(i)=>{setSourceIndex(i);indexRef.current=i;setQuality('auto');setLevels([]);setError('');setState('loading');setReload(n=>n+1)};
+ const nextSource=()=>{if(sourceUrls.length>1)changeSource((indexRef.current+1)%sourceUrls.length);else setReload(n=>n+1)};
  useEffect(()=>{
-  setError('');
   const video=videoRef.current;
-  if(!channel?.streamUrl||!video)return;
-  const url=channel.streamUrl;
-  let hls;
+  const url=sourceUrls[sourceIndex];
+  if(!video||!url)return;
+  let hls=null,stopped=false,failed=false,ready=false,timeoutId=null;
+  const clearTimer=()=>{if(timeoutId!==null)clearTimeout(timeoutId)};
+  setState('loading');setError('');setLevels([]);
+  const fail=()=>{
+   if(stopped||failed||ready)return;
+   failed=true;clearTimer();
+   if(autoRef.current&&indexRef.current+1<urlsRef.current.length){
+    setError('منبع پاسخ نداد؛ در حال امتحان لینک بعدی…');
+    changeSource(indexRef.current+1);
+   }else{
+    setState('failed');setError('هیچ منبع قابل پخشی در دسترس نیست؛ می‌توانید دستی لینک دیگری انتخاب کنید.');
+   }
+  };
+  const markPlaying=()=>{if(stopped)return;ready=true;failed=false;clearTimer();setError('');setState('playing')};
+  const handleError=()=>{ready=false;fail()};
+  const handleStalled=()=>{if(!stopped&&!video.paused){ready=false;clearTimer();timeoutId=setTimeout(fail,12000)}};
+  const handleWaiting=()=>{if(!stopped&&!video.paused){clearTimer();timeoutId=setTimeout(fail,15000)}};
   video.pause();video.removeAttribute('src');video.load();
-  const fail=()=>setError('پخش این منبع در مرورگر ممکن نیست؛ ممکن است محدودیت دسترسی یا CORS داشته باشد.');
-  video.addEventListener('error',fail);
-  if(/\.mpd(?:[?#]|$)/i.test(url))setError('این منبع DASH است و برای آن پلیر سازگار لازم است.');
+  video.addEventListener('playing',markPlaying);
+  video.addEventListener('error',handleError);
+  video.addEventListener('stalled',handleStalled);
+  video.addEventListener('waiting',handleWaiting);
+  timeoutId=setTimeout(fail,18000);
+  if(/\.mpd(?:[?#]|$)/i.test(url)){fail()}
   else if(Hls.isSupported()){
-   hls=new Hls({enableWorker:true,lowLatencyMode:true});
-   hls.on(Hls.Events.ERROR,(_event,data)=>{if(data.fatal)fail()});
-   hls.loadSource(url);hls.attachMedia(video);
-  } else if(video.canPlayType('application/vnd.apple.mpegurl')){video.src=url}
-  else fail();
-  return ()=>{video.removeEventListener('error',fail);hls?.destroy();video.pause();video.removeAttribute('src');video.load()};
- },[channel?.id,channel?.streamUrl,reload]);
- return <div className="television" aria-label="تلویزیون آنلاین"><div className="tv-frame"><div className="player">
-  {channel?.streamUrl?<><video key={channel.id} ref={videoRef} className="video" controls playsInline autoPlay />{error&&<div className="play-notice">{error}</div>}</>:
+   hls=new Hls({enableWorker:true,startLevel:-1,capLevelToPlayerSize:true,abrEwmaDefaultEstimate:650000,lowLatencyMode:true});
+   engineRef.current=hls;
+   hls.on(Hls.Events.MANIFEST_PARSED,(_event,data)=>{
+    const ls=(data.levels||[]).map((l,i)=>({index:i,height:l.height||0,bitrate:l.bitrate||0}));
+    setLevels(ls);hls.currentLevel=-1;
+    video.play().catch(()=>{});
+   });
+   hls.on(Hls.Events.LEVEL_SWITCHED,()=>{});
+   hls.on(Hls.Events.ERROR,(_event,data)=>{
+    if(!data.fatal)return;
+    if(data.type===Hls.ErrorTypes.MEDIA_ERROR){try{hls.recoverMediaError();return}catch{}}
+    ready=false;fail();
+   });
+   hls.attachMedia(video);hls.loadSource(url);
+  }else if(video.canPlayType('application/vnd.apple.mpegurl')){
+   video.src=url;video.play().catch(()=>{});
+  }else fail();
+  return ()=>{
+   stopped=true;clearTimer();
+   video.removeEventListener('playing',markPlaying);
+   video.removeEventListener('error',handleError);
+   video.removeEventListener('stalled',handleStalled);
+   video.removeEventListener('waiting',handleWaiting);
+   hls?.destroy();if(engineRef.current===hls)engineRef.current=null;
+   video.pause();video.removeAttribute('src');video.load();
+  };
+ },[channel?.id,sourceIndex,reload,sourceUrls]);
+ const changeQuality=v=>{
+  setQuality(v);
+  const hls=engineRef.current;
+  if(hls){hls.currentLevel=v==='auto'?-1:Number(v);hls.loadLevel=v==='auto'?-1:Number(v)}
+ };
+ return <><div className="television" aria-label="تلویزیون آنلاین"><div className="tv-frame"><div className="player">
+  {sourceUrls.length?<><video ref={videoRef} className="video" controls playsInline autoPlay />{error&&<div className="play-notice">{error}</div>}</>:
    <div className="empty-player"><div className="empty-player-message"><Tv size={38}/><h2>{channel?'برای این شبکه منبع مستقیم ثبت نشده':'شبکه مورد نظر را انتخاب کنید'}</h2><p>{channel?'این شبکه بدون تغییر در فهرست باقی مانده است.':'برای شروع پخش، یک شبکه از فهرست کناری انتخاب کنید.'}</p></div></div>}
-  {channel?.streamUrl&&<button className="reload-embed" onClick={()=>setReload(n=>n+1)} title="تلاش دوباره" aria-label="تلاش دوباره"><RefreshCw size={16}/></button>}
+  {sourceUrls.length>0&&<button className="reload-embed" onClick={()=>changeSource(0)} title="شروع دوباره از منبع اول" aria-label="تلاش دوباره"><RefreshCw size={16}/></button>}
  </div></div><div className="tv-bottom" aria-hidden="true"><span className="tv-wordmark">MAHNAMA TV</span><span className="tv-power-dot"/></div><div className="tv-stand" aria-hidden="true"/></div>
+ {sourceUrls.length>0&&<div className="stream-controls" dir="rtl">
+   <label className="stream-control"><span>کیفیت</span><select aria-label="انتخاب کیفیت" value={quality} onChange={e=>changeQuality(e.target.value)}><option value="auto">خودکار (متناسب با اینترنت)</option>{levels.map(l=><option key={l.index} value={String(l.index)}>{l.height?`${l.height}p`:`کیفیت ${l.index+1}`}{l.bitrate?` · ${Math.round(l.bitrate/1000)} kbps`:''}</option>)}</select></label>
+   <label className="stream-control"><span>لینک پخش</span><select aria-label="تغییر لینک پخش" value={sourceIndex} onChange={e=>changeSource(Number(e.target.value))}>{sourceUrls.map((url,i)=><option key={url} value={i}>لینک {i+1} · {(()=>{try{return new URL(url).hostname}catch{return 'منبع پخش'}})()}</option>)}</select></label>
+   <label className="auto-source-option"><input type="checkbox" checked={autoSource} onChange={e=>{setAutoSource(e.target.checked);autoRef.current=e.target.checked}}/> تعویض خودکار لینک هنگام خطا</label>
+   <span className="play-state" role="status">{state==='playing'?'● در حال پخش':state==='loading'?'در حال آزمایش منبع…':state==='failed'?'منبع در دسترس نیست':''}</span>
+   {sourceUrls.length>1&&<button className="next-source" onClick={nextSource}><RefreshCw size={14}/> لینک بعدی</button>}
+ </div>}
+ </>;
 }
 
 function App(){
  const [remote,setRemote]=useState([]),[streamMap,setStreamMap]=useState({}),[siteOrder,setSiteOrder]=useState([]),[selected,setSelected]=useState(null),[activeCat,setActiveCat]=useState('همه شبکه‌ها'),[search,setSearch]=useState(''),[favorites,setFavorites]=useState(readFavs),[copied,setCopied]=useState(false),[customUrl,setCustomUrl]=useState(''),[listOnlyLive,setListOnlyLive]=useState(false),[status,setStatus]=useState('در حال بارگذاری منابع مستقیم شبکه‌ها');
  useEffect(()=>{fetch(STREAMS_URL,{cache:'no-store'}).then(r=>r.ok?r.json():Promise.reject(r.status)).then(d=>{setStreamMap(d);setStatus('منابع مستقیم ثبت‌شده: '+Object.keys(d).length.toLocaleString('fa-IR')+' شبکه')}).catch(()=>setStatus('دریافت فهرست منابع ممکن نشد'));},[]);
  useEffect(()=>{fetch(ORDER_URL,{cache:'no-store'}).then(r=>{if(!r.ok)throw Error('order');return r.json()}).then(d=>{if(Array.isArray(d))setSiteOrder(d)}).catch(()=>{});},[]);
- const channels=useMemo(()=>seed.map(c=>{const d=streamMap[channelKey(c.originalName)];return {...c,...(d?{streamUrl:d.url,type:d.kind,scanStatus:d.scanStatus}:{} )}}).concat(remote.filter(c=>c.id==='user-stream')),[streamMap,remote]);
+ const channels=useMemo(()=>seed.map(c=>{const d=streamMap[channelKey(c.originalName)];return {...c,...(d?{streamUrl:d.url,alternatives:d.alternatives||[],type:d.kind,scanStatus:d.scanStatus}:{} )}}).concat(remote.filter(c=>c.id==='user-stream')),[streamMap,remote]);
  const siteRanks=useMemo(()=>new Map(siteOrder.map((name,i)=>[channelKey(name),i])),[siteOrder]);
  const filtered=useMemo(()=>channels.filter(c=>(activeCat==='همه شبکه‌ها'||(activeCat==='مورد علاقه‌ها'?favorites.includes(c.id):c.category===activeCat))&&(c.name+' '+(c.originalName||'')).toLocaleLowerCase().includes(search.trim().toLocaleLowerCase())).sort((a,b)=>{
   const aRank=siteRanks.get(channelKey(a.originalName||a.name));
